@@ -1,0 +1,99 @@
+{
+    "minVersion": "0.1",
+	 "headerImage": "https://imod668.github.io/header.png",
+	 "tintColor": "",
+    "tabs": [
+      {
+        "tabname": "Details",
+        "views": [
+          {
+            "itemCornerRadius": 4,
+            "itemSize": "{187.5, 333.5}",
+            "screenshots": [
+              {
+                "accessibilityText": "Screenshot",
+                "url": "https://imod668.github.io/depictions/com.tweak.cydown/1.jpg"
+              }
+            ],
+            "class": "DepictionScreenshotsView"
+          },
+          {
+            "markdown": "Cydown giúp bạn down về các tweak trả tiền, kể từ ios 11-12 jailbreak thì nó hầu như không còn tác dụng, Do đó nó được dùng chủ yếu để backup tweak,mỗi khi tải xuống.",
+            "useSpacing": true,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "class": "DepictionSeparatorView"
+          },
+          {
+            "title": "Information",
+            "class": "DepictionHeaderView"
+          },
+          {
+            "title": "Version",
+            "text": "7.0.1",
+            "class": "DepictionTableTextView"
+          },
+          {
+            "title": "Developert",
+            "text": "julioverne",
+            "class": "DepictionTableTextView"
+          },
+          {
+            "title": "Compatibility",
+            "text": "iOS 7.0 - 12.4",
+            "class": "DepictionTableTextView"
+          },
+	
+          {
+            "class": "DepictionSeparatorView"
+          },
+          {
+            "title": "Follow Me",
+            "class": "DepictionHeaderView"
+          },
+
+          {
+            "title": "Facebook",
+            "action": "https://facebook.com.com/MrthuanJB",
+            "class": "DepictionTableButtonView"
+          },
+
+          {
+            "spacing": 8,
+            "class": "DepictionSpacerView"
+          }
+        ],
+        "class": "DepictionStackView"
+      },
+	  
+	  {
+        "tabname": "Changelog",
+        "views": [
+          {
+            "title": "Version 7.0.1",
+            "useBoldText": true,
+            "useBottomMargin": true,
+            "class": "DepictionSubheaderView"
+          },
+          {
+            "markdown": "Initial Release.",
+            "useSpacing": false,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "markdown": "<small style=\"color: #999; margin-top: -8px;\">Updated 11-10-2019<\/small>",
+            "useRawFormat": true,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "class": "DepictionSeparatorView"
+          }
+          
+        ],
+        "class": "DepictionStackView"
+      }
+	  
+    ],
+    "class": "DepictionTabView"
+  }

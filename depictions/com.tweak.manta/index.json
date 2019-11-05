@@ -1,0 +1,111 @@
+{
+    "minVersion": "0.1",
+	 "headerImage": "https://imod668.github.io/header.png",
+	 "tintColor": "",
+    "tabs": [
+      {
+        "tabname": "Details",
+        "views": [
+          {
+            "itemCornerRadius": 4,
+            "itemSize": "{187.5, 333.5}",
+            "screenshots": [
+              {
+                "accessibilityText": "Screenshot",
+                "url": "https://imod668.github.io/depictions/com.tweak.manta/1.jpg"
+              },
+			  {
+                "accessibilityText": "Screenshot",
+                "url": "https://imod668.github.io/depictions/com.tweak.manta/2.jpg"
+              },
+			  {
+                "accessibilityText": "Screenshot",
+                "url": "https://imod668.github.io/depictions/com.tweak.manta/3.jpg"
+              },
+			  {
+                "accessibilityText": "Screenshot",
+                "url": "https://imod668.github.io/depictions/com.tweak.manta/4.jpg"
+              },
+            ],
+            "class": "DepictionScreenshotsView"
+          },
+          {
+            "markdown": "Thiết kế lại màn hình khóa của bạn! Lên lịch tiếp theo và thông tin thời tiết trong nháy mắt.",
+            "useSpacing": true,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "class": "DepictionSeparatorView"
+          },
+          {
+            "title": "Information",
+            "class": "DepictionHeaderView"
+          },
+          {
+            "title": "Version",
+            "text": "1.0.3",
+            "class": "DepictionTableTextView"
+          },
+          {
+            "title": "Developer",
+            "text": "Ben Giannis",
+            "class": "DepictionTableTextView"
+          },
+          {
+            "title": "Compatibility",
+            "text": "iOS 12.0 - 12.4",
+            "class": "DepictionTableTextView"
+          },
+	
+          {
+            "class": "DepictionSeparatorView"
+          },
+          {
+            "title": "Follow Me",
+            "class": "DepictionHeaderView"
+          },
+
+          {
+            "title": "Facebook",
+            "action": "https://facebook.com.com/MrthuanJB",
+            "class": "DepictionTableButtonView"
+          },
+
+          {
+            "spacing": 8,
+            "class": "DepictionSpacerView"
+          }
+        ],
+        "class": "DepictionStackView"
+      },
+	  
+	  {
+        "tabname": "Changelog",
+        "views": [
+          {
+            "title": "Version 1.0.3",
+            "useBoldText": true,
+            "useBottomMargin": true,
+            "class": "DepictionSubheaderView"
+          },
+          {
+            "markdown": "Fixed an issue where some users would have no effect after installing.",
+            "useSpacing": false,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "markdown": "<small style=\"color: #999; margin-top: -8px;\">Updated 06-09-2019<\/small>",
+            "useRawFormat": true,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "class": "DepictionSeparatorView"
+          }
+          
+        ],
+        "class": "DepictionStackView"
+      }
+	  
+    ],
+    "class": "DepictionTabView"
+  }

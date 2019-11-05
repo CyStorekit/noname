@@ -1,0 +1,99 @@
+{
+    "minVersion": "0.1",
+	 "headerImage": "https://imod668.github.io/header.png",
+	 "tintColor": "",
+    "tabs": [
+      {
+        "tabname": "Details",
+        "views": [
+          {
+            "itemCornerRadius": 4,
+            "itemSize": "{187.5, 333.5}",
+            "screenshots": [
+              {
+                "accessibilityText": "Screenshot",
+                "url": "https://imod668.github.io/depictions/fi.flodin.tonemanager/1.png"
+              }
+            ],
+            "class": "DepictionScreenshotsView"
+          },
+          {
+            "markdown": "Install ringtones from Audiko, Zedge and more!.",
+            "useSpacing": true,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "class": "DepictionSeparatorView"
+          },
+          {
+            "title": "Information",
+            "class": "DepictionHeaderView"
+          },
+          {
+            "title": "Version",
+            "text": "0.6.2-368",
+            "class": "DepictionTableTextView"
+          },
+          {
+            "title": "Developer",
+            "text": "Jesper Flodin",
+            "class": "DepictionTableTextView"
+          },
+          {
+            "title": "Compatibility",
+            "text": "iOS 11 - 12.4",
+            "class": "DepictionTableTextView"
+          },
+	
+          {
+            "class": "DepictionSeparatorView"
+          },
+          {
+            "title": "Follow Me",
+            "class": "DepictionHeaderView"
+          },
+
+          {
+            "title": "Facebook",
+            "action": "https://facebook.com.com/MrthuanJB",
+            "class": "DepictionTableButtonView"
+          },
+
+          {
+            "spacing": 8,
+            "class": "DepictionSpacerView"
+          }
+        ],
+        "class": "DepictionStackView"
+      },
+	  
+	  {
+        "tabname": "Changelog",
+        "views": [
+          {
+            "title": "Version 0.6.2-368",
+            "useBoldText": true,
+            "useBottomMargin": true,
+            "class": "DepictionSubheaderView"
+          },
+          {
+            "markdown": "Increased stability when installing ringtones.",
+            "useSpacing": false,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "markdown": "<small style=\"color: #999; margin-top: -8px;\">Updated 18-06-2019<\/small>",
+            "useRawFormat": true,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "class": "DepictionSeparatorView"
+          }
+          
+        ],
+        "class": "DepictionStackView"
+      }
+	  
+    ],
+    "class": "DepictionTabView"
+  }

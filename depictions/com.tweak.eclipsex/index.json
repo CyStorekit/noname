@@ -1,0 +1,103 @@
+{
+    "minVersion": "0.1",
+	 "headerImage": "https://imod668.github.io/header.png",
+	 "tintColor": "",
+    "tabs": [
+      {
+        "tabname": "Details",
+        "views": [
+          {
+            "itemCornerRadius": 4,
+            "itemSize": "{187.5, 333.5}",
+            "screenshots": [
+              {
+                "accessibilityText": "Screenshot",
+                "url": "https://imod668.github.io/depictions/com.tweak.eclipsex/1.jpg"
+              },
+			  {
+                "accessibilityText": "Screenshot",
+                "url": "https://imod668.github.io/depictions/com.tweak.eclipsex/2.jpg"
+              },
+            ],
+            "class": "DepictionScreenshotsView"
+          },
+          {
+            "markdown": "EclipseX mang lại chế độ darkmode cho toàn hệ thống, nếu bạn trên ios 12 thì dùng <i>Eclipse12</i>.",
+            "useSpacing": true,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "class": "DepictionSeparatorView"
+          },
+          {
+            "title": "Information",
+            "class": "DepictionHeaderView"
+          },
+          {
+            "title": "Version",
+            "text": "5.1.9",
+            "class": "DepictionTableTextView"
+          },
+          {
+            "title": "Developert",
+            "text": "Guillermo Morán",
+            "class": "DepictionTableTextView"
+          },
+          {
+            "title": "Compatibility",
+            "text": "iOS 11 - 11.4.1",
+            "class": "DepictionTableTextView"
+          },
+	
+          {
+            "class": "DepictionSeparatorView"
+          },
+          {
+            "title": "Follow Me",
+            "class": "DepictionHeaderView"
+          },
+
+          {
+            "title": "Facebook",
+            "action": "https://facebook.com.com/MrthuanJB",
+            "class": "DepictionTableButtonView"
+          },
+
+          {
+            "spacing": 8,
+            "class": "DepictionSpacerView"
+          }
+        ],
+        "class": "DepictionStackView"
+      },
+	  
+	  {
+        "tabname": "Changelog",
+        "views": [
+          {
+            "title": "Version 5.1.9",
+            "useBoldText": true,
+            "useBottomMargin": true,
+            "class": "DepictionSubheaderView"
+          },
+          {
+            "markdown": "Fix crashes when Bazzi is installed.",
+            "useSpacing": false,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "markdown": "<small style=\"color: #999; margin-top: -8px;\">Updated 17-09-2019<\/small>",
+            "useRawFormat": true,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "class": "DepictionSeparatorView"
+          }
+          
+        ],
+        "class": "DepictionStackView"
+      }
+	  
+    ],
+    "class": "DepictionTabView"
+  }

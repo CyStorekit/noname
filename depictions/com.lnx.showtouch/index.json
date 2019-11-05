@@ -1,0 +1,71 @@
+{
+    "minVersion": "0.1",
+	 "headerImage": "https://imod668.github.io/header.png",
+	 "tintColor": "",
+    "tabs": [
+      {
+        "tabname": "Details",
+        "views": [
+          {
+            "itemCornerRadius": 4,
+            "itemSize": "{187.5, 333.5}",
+            "screenshots": [
+              {
+                "accessibilityText": "Screenshot",
+                "url": "https://imod668.github.io/depictions/com.lnx.showtouch/1.jpg"
+              }
+            ],
+            "class": "DepictionScreenshotsView"
+          },
+          {
+            "markdown": "Hiện con trỏ chấm màu khi bạn chạm vào trên màn hình. tùy chỉnh trong cài đặt.",
+            "useSpacing": true,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "class": "DepictionSeparatorView"
+          },
+          {
+            "title": "Thông Tin",
+            "class": "DepictionHeaderView"
+          },
+          {
+            "title": "Phiên Bản",
+            "text": "1.0.3-1",
+            "class": "DepictionTableTextView"
+          },
+          {
+            "title": "Cập Nhật",
+            "text": "17/06/2019",
+            "class": "DepictionTableTextView"
+          },
+          {
+            "title": "Tương Thích",
+            "text": "iOS 10 - 12",
+            "class": "DepictionTableTextView"
+          },
+	
+          {
+            "class": "DepictionSeparatorView"
+          },
+          {
+            "title": "Follow Me",
+            "class": "DepictionHeaderView"
+          },
+
+          {
+            "title": "Facebook",
+            "action": "https://facebook.com.com/MrthuanJB",
+            "class": "DepictionTableButtonView"
+          },
+
+          {
+            "spacing": 8,
+            "class": "DepictionSpacerView"
+          }
+        ],
+        "class": "DepictionStackView"
+      },
+    ],
+    "class": "DepictionTabView"
+  }

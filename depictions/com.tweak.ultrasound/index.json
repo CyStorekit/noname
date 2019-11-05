@@ -1,0 +1,99 @@
+{
+    "minVersion": "0.1",
+	 "headerImage": "https://imod668.github.io/header.png",
+	 "tintColor": "",
+    "tabs": [
+      {
+        "tabname": "Details",
+        "views": [
+          {
+            "itemCornerRadius": 4,
+            "itemSize": "{187.5, 333.5}",
+            "screenshots": [
+              {
+                "accessibilityText": "Screenshot",
+                "url": "https://imod668.github.io/depictions/com.tweak.ultrasound/1.jpg"
+              }
+            ],
+            "class": "DepictionScreenshotsView"
+          },
+          {
+            "markdown": "Thay thế HUD âm lượng mặc định trên ios..",
+            "useSpacing": true,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "class": "DepictionSeparatorView"
+          },
+          {
+            "title": "Information",
+            "class": "DepictionHeaderView"
+          },
+          {
+            "title": "Version",
+            "text": "1.2.9",
+            "class": "DepictionTableTextView"
+          },
+          {
+            "title": "Developer",
+            "text": "Ayden Panhuyzen",
+            "class": "DepictionTableTextView"
+          },
+          {
+            "title": "Tương Thích",
+            "text": "iOS 11 - 12.4",
+            "class": "DepictionTableTextView"
+          },
+	
+          {
+            "class": "DepictionSeparatorView"
+          },
+          {
+            "title": "Open Source",
+            "class": "DepictionHeaderView"
+          },
+
+          {
+            "title": "Source Code",
+            "action": "https://github.com/aydenp/Ultrasound",
+            "class": "DepictionTableButtonView"
+          },
+
+          {
+            "spacing": 8,
+            "class": "DepictionSpacerView"
+          }
+        ],
+        "class": "DepictionStackView"
+      },
+	  
+	  {
+        "tabname": "Changelog",
+        "views": [
+          {
+            "title": "Version 1.2.9",
+            "useBoldText": true,
+            "useBottomMargin": true,
+            "class": "DepictionSubheaderView"
+          },
+          {
+            "markdown": "Fix a crash experienced in OLED Mode on certain devices under heavy load.",
+            "useSpacing": false,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "markdown": "<small style=\"color: #999; margin-top: -8px;\">Updated 25-06-2019<\/small>",
+            "useRawFormat": true,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "class": "DepictionSeparatorView"
+          }
+          
+        ],
+        "class": "DepictionStackView"
+      }
+	  
+    ],
+    "class": "DepictionTabView"
+  }

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=0">
+    <title>Repo</title>
+    <link rel="stylesheet" type="text/css" href="../depiction/js/index.css">
+    <style>a, .tint, .table-btn:after {color: #333333} .active {color: #333333;border-bottom: 2px solid #333333;}</style>
+    <script src="../depiction/js/index.js"></script>
+    <meta name="theme-color" content="#333333">
+</head>
+<body>
+    <div class="body">
+        <div style="background-image: url(../../resources/icons/logo/Header/header.png)" class="banner_underlay"></div>
+        <div class="package package_head">
+            <img src="../../resources/icons/cydia.png">
+            <div class="package_info">
+                <h1 class="package_name">Succession</h1>
+                <p class="package_caption"></p>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="nav_btn active tweak_info_btn" onclick="swap('.changelog','.tweak_info');">Details</div>
+            <div class="nav_btn changelog_btn" onclick="swap('.tweak_info','.changelog');">Changelog</div>
+        </div>
+        <div class="tweak_info">
+            <div class="md_view">
+            <p>
+				<p>Succession là một công cụ cho phép khôi phục hoàn toàn thiết bị iOS của bạn trở lại Stock.
+				   Succession rất giống với một công cụ có tên 'Cydia Eraser', để sau khi khôi phục, bạn vẫn có thể bẻ khóa thiết bị của mình.
+				   Tóm lại nó dùng để UnJailbreak sạch sẽ như khi bạn chạy lại FW mà vẫn giữ nguyên phiên bản hiện tại.</p>
+				<h3>Features:</h3>
+				<ul>
+				<li>Phiên bản này rất ổn định cho ios 11.4.1 trở xuống</li>
+				<li>Nếu bạn trên ios 12 thì nên dùng phiên bản mới nhất</li>
+				
+				</ul>
+			</p>
+            </div>
+            <h3>Screenshots</h3>
+            <div class="scroll_view">
+			<img class="img_card" src="1.jpg">
+			<img class="img_card" src="2.jpg">
+			
+			</div>
+			
+            <h3>Information</h3>
+            <div class="table">
+
+                <div class="cell">
+                    <div class="title">Developer</div>
+                    <div class="text">Samg_is_a_Ninja</div>
+                    <br><br>
+                </div>
+                <div class="cell">
+                    <div class="title">Version</div>
+                    <div class="text">1.2.4</div>
+                    <br><br>
+                </div>
+                <div class="cell">
+                    <div class="title">Compatibility</div>
+                    <div class="text">iOS 10.0 to 12.1.2</div>
+                    <br><br>
+                </div>
+                <div class="cell">
+                    <div class="title">Section</div>
+                    <div class="text">Utilities</div>
+                    <br><br>
+                </div>
+            </div>
+           <a href="https://github.com/Samgisaninja/SuccessionRestore" target="_blank" class="table-btn">
+                <div>View Source Code</div>
+            </a>
+        </div>
+        <div class="changelog">
+
+			<div class="changelog_entry">
+                <h4>1.2.4</h4>
+                <div class="md_view">
+				<p>	* Adds more logging to the restore page.<br>
+					* Makes mounting more stable<br>
+					* Fixes a crash when tapping "Begin restore" on iPads.
+				
+				</p>
+				</div>
+            </div>
+			
+        </div>
+        <div class="caption center footer">Updated 18-06-2019</div>
+    </div>
+</body>
+
+<script>compatible("10.0","12.1.2","iOS 10.0 to 12.1.2");externalize()</script>
+</html>

@@ -1,0 +1,103 @@
+{
+    "minVersion": "0.1",
+	 "headerImage": "https://imod668.github.io/header.png",
+	 "tintColor": "",
+    "tabs": [
+      {
+        "tabname": "Details",
+        "views": [
+          {
+            "itemCornerRadius": 4,
+            "itemSize": "{187.5, 333.5}",
+            "screenshots": [
+              {
+                "accessibilityText": "Screenshot",
+                "url": "https://imod668.github.io/depictions/com.mumiantech.NotifierDots/1.jpg"
+              },
+			  {
+                "accessibilityText": "Screenshot",
+                "url": "https://imod668.github.io/depictions/com.mumiantech.NotifierDots/2.jpg"
+              },
+            ],
+            "class": "DepictionScreenshotsView"
+          },
+          {
+            "markdown": "NotifierDots là một tinh chỉnh để hiển thị chỉ báo thông báo trên thanh trạng thái.",
+            "useSpacing": true,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "class": "DepictionSeparatorView"
+          },
+          {
+            "title": "Thông Tin",
+            "class": "DepictionHeaderView"
+          },
+          {
+            "title": "Phiên Bản",
+            "text": "0.2-1",
+            "class": "DepictionTableTextView"
+          },
+          {
+            "title": "Developert",
+            "text": "iamalive2008",
+            "class": "DepictionTableTextView"
+          },
+          {
+            "title": "Tương Thích",
+            "text": "iOS 11 - 12.4",
+            "class": "DepictionTableTextView"
+          },
+	
+          {
+            "class": "DepictionSeparatorView"
+          },
+          {
+            "title": "Follow Me",
+            "class": "DepictionHeaderView"
+          },
+
+          {
+            "title": "Facebook",
+            "action": "https://facebook.com.com/MrthuanJB",
+            "class": "DepictionTableButtonView"
+          },
+
+          {
+            "spacing": 8,
+            "class": "DepictionSpacerView"
+          }
+        ],
+        "class": "DepictionStackView"
+      },
+	  
+	  {
+        "tabname": "Changelog",
+        "views": [
+          {
+            "title": "Version 0.2-1",
+            "useBoldText": true,
+            "useBottomMargin": true,
+            "class": "DepictionSubheaderView"
+          },
+          {
+            "markdown": "Initial Release.",
+            "useSpacing": false,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "markdown": "<small style=\"color: #999; margin-top: -8px;\">Updated 02-09-2019<\/small>",
+            "useRawFormat": true,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "class": "DepictionSeparatorView"
+          }
+          
+        ],
+        "class": "DepictionStackView"
+      }
+	  
+    ],
+    "class": "DepictionTabView"
+  }

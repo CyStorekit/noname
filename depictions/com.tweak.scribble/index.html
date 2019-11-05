@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=0">
+    <title>Repo</title>
+    <link rel="stylesheet" type="text/css" href="../depiction/js/index.css">
+    <style>a, .tint, .table-btn:after {color: #333333} .active {color: #333333;border-bottom: 2px solid #333333;}</style>
+    <script src="../depiction/js/index.js"></script>
+    <meta name="theme-color" content="#333333">
+</head>
+<body>
+    <div class="body">
+        <div style="background-image: url(../../resources/icons/logo/Header/header.png)" class="banner_underlay"></div>
+        <div class="package package_head">
+            <img src="../../resources/icons/cydia.png">
+            <div class="package_info">
+                <h1 class="package_name">Scribble</h1>
+                <p class="package_caption"></p>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="nav_btn active tweak_info_btn" onclick="swap('.changelog','.tweak_info');">Details</div>
+            <div class="nav_btn changelog_btn" onclick="swap('.tweak_info','.changelog');">Changelog</div>
+        </div>
+        <div class="tweak_info">
+            <div class="md_view">
+            <p>
+				<p>Description.</p>
+				<ul>
+				<li>Scribble mang lại cách mở khóa màn hình mới cho thiết bị của bạn</li>
+				<li>tweak này tương tự như tweak <b>stride 2</b> trên iOS 7.</li>
+				</ul>
+			</p>
+            </div>
+            <h3>Screenshots</h3>
+            <div class="scroll_view">
+			<img class="img_card" src="1.jpg">
+			<img class="img_card" src="2.jpg">
+			<img class="img_card" src="3.jpg">
+			<img class="img_card" src="4.jpg">
+			<img class="img_card" src="5.jpg">
+			
+			</div>
+			
+            <h3>Information</h3>
+            <div class="table">
+
+                <div class="cell">
+                    <div class="title">Developer</div>
+                    <div class="text">BooDev</div>
+                    <br><br>
+                </div>
+                <div class="cell">
+                    <div class="title">Version</div>
+                    <div class="text">1.0.3-1</div>
+                    <br><br>
+                </div>
+                <div class="cell">
+                    <div class="title">Compatibility</div>
+                    <div class="text">iOS 11.0 to 12.4</div>
+                    <br><br>
+                </div>
+                <div class="cell">
+                    <div class="title">Section</div>
+                    <div class="text">Tweaks</div>
+                    <br><br>
+                </div>
+            </div>
+           <!-- <a href="https://" target="_blank" class="table-btn">
+                <div>View Source Code</div>
+            </a> -->
+        </div>
+        <div class="changelog">
+
+			<div class="changelog_entry">
+                <h4>1.0.3-1</h4>
+                <div class="md_view"><p>Fix Scribble not showing on iPhone X & iOS 11 if FaceID is enabled.</p>
+				</div>
+            </div>
+			
+        </div>
+        <div class="caption center footer">Updated 17-09-2019</div>
+    </div>
+</body>
+
+<script>compatible("11.0","12.4","iOS 11.0 to 12.4");externalize()</script>
+</html>

@@ -1,0 +1,3453 @@
+Package: preferenceloader
+Name: PreferenceLoader
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: load preferences in style
+Maintainer: Dustin Howett <cydia.pl@relay.howett.net>
+Author: Dustin Howett <cydia.pl@relay.howett.net>
+Section: System
+dev: dustinhowett
+Tag: role::hacker, purpose::library
+Version: 2.2.4~beta1
+Installed-Size: 532
+Filename: ./debs/Utilities/preferenceloader_2.2.4~beta1.deb
+Size: 33838
+MD5sum: 61efed5a8aa8507208731da2d737c882
+SHA1: 5c180113d9fc6263cf30700a725dacb92b546218
+SHA256: d395cfb1d8dd56f984df50dc0db33746e3e1e72f311be5bad3f4235342b21b90
+
+Package: com.rpetrich.rocketbootstrap
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
+Name: RocketBootstrap
+Architecture: iphoneos-arm
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: Tweaks
+dev: rpetrich
+Tag: purpose::extension, role::developer
+Version: 1.0.7~beta3
+Installed-Size: 596
+Filename: ./debs/Utilities/com.rpetrich.rocketbootstrap_1.0.7_beta3_iphoneos-arm.deb
+Size: 37990
+MD5sum: 7c693be81595deb417858ffc5ae8cd10
+SHA1: e0f1b4afbac67e3c8beb39df819997fd0cb54468
+SHA256: 4b7e9c8a0c6d5fc3179e0c5f7fb880239f8c5f30e481979b9d7e4829d58cfb73
+
+Package: applist
+Name: AppList
+Architecture: iphoneos-arm
+Description: Allow extensions to read the list of installed apps
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Section: System
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+dev: rpetrich
+Version: 1.5.15~beta1
+Installed-Size: 780
+Filename: ./debs/Utilities/applist_1.5.15_beta1_iphoneos-arm.deb
+Size: 104730
+MD5sum: 2fca5a5135a60e2c4c58ba4cb4575e8b
+SHA1: 812fddf63980694c89ff44346c7a7f18782466c2
+SHA256: 55cb9b74d2201d58f3dcde5765c103d305180222fe61a18baa644d84153fa0aa
+
+Package: jp.ashikase.techsupport
+Name: TechSupport Framework (cokepokes)
+Version: 1.5.0.1-2
+Description: Framework to assist in providing feedback to developers.
+Architecture: iphoneos-arm
+Pre-Depends: firmware (>=3.0)
+Depends: cokepokes.jp.ashikase.libpackageinfo
+Conflicts: cokepokes.jp.ashikase.techsupport
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=techsupportData
+Homepage: http://github.com/ashikase/TechSupport
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Lance Fetters (ashikase) <support@ashikase.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: Development
+Tag: role::developer
+dev: ashikase
+Filename: ./debs/Utilities/TechSupportFramework_1.5.0.1-2.deb
+Size: 78108
+MD5sum: bb6ecf82e9f6b7d472f4aee4cfcd3345
+SHA1: 99c881f68931835cd5a992c7a7957109d83ad64c
+SHA256: 50a88b79bd88afe7c3abc3cefd75502a159ee9a303a0d80819b2c0867cb80401
+
+Package: cokepokes.jp.ashikase.libpackageinfo
+Name: libpackageinfo (cokepokes)
+Version: 1.1.0.1-3
+Description: Library to retrieve package information.
+Architecture: iphoneos-arm
+Pre-Depends: firmware (>=3.0)
+Replaces: jp.ashikase.libpackageinfo
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libpackageinfoData
+Homepage: http://github.com/ashikase/libpackageinfo
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Lance Fetters (ashikase) <support@ashikase.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: Development
+Tag: role::developer
+dev: ashikase
+Filename: ./debs/Utilities/libpackageinfo_1.1.0.1-3.deb
+Size: 123116
+MD5sum: b3a9c152d42a76665b8e00919381f2d6
+SHA1: bbf9177164a4dd42dc7eb706f7a84ebe46a25036
+SHA256: 07b1a0dd90a9b9aac9ab008ac927460b10b9b87bc57590fee05818721d28575d
+
+Package: com.theme.susu
+Name: Susu
+Version: 1.0
+Architecture: iphoneos-arm
+Description: theme phong cách gradient
+Section: Themes
+Maintainer: Mrthu4n
+Author: Mrthu4n
+Filename: ./debs/theme/com.theme.susu_1.0_iphoneos-arm.deb
+Size: 2954096
+MD5sum: 3534946bbdcff032ab2d1451c85b202c
+SHA1: 4f71741b94ae4eb1b4d583c2945bef04401080a7
+SHA256: e6e336f6358ad4eedd13a863cb52354e37133bf4c4d6522267ea71481ec254d8
+Depiction: https://itweaks.xyz/depictions/com.theme.susu/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.susu/index.json
+
+Package: com.theme.plainly
+Name: Plainly
+Version: 1.0
+Architecture: iphoneos-arm
+Description: theme cool
+Author: Mrthu4n
+Section: Themes
+Maintainer: Mrthu4n
+Filename: ./debs/theme/com.theme.plainly_1.0_iphoneos-arm.deb
+Size: 2662404
+MD5sum: 65861df1d60136ef2a1ccdd4217b9409
+SHA1: 34b06270b6aebeeb5566cabf0489a32a37196d78
+SHA256: ddb5f4005808fd1c56c124c10c6d4c02433f558ad5332eb39fb162cbae069dda
+Depiction: https://itweaks.xyz/depictions/com.theme.plainly/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.plainly/index.json
+
+Package: com.bdt6688.lightly
+Name: Lightly
+Version: 1.0
+Architecture: iphoneos-arm
+Section: Themes
+Description: Lightly is a flat theme for iOS.
+Author: th6688
+Maintainer: th6688 <thu4n6688@gmail.com>
+Filename: ./debs/theme/com.bdt6688.lightly_1.0.deb
+Size: 2195392
+MD5sum: 3417fff41fe3188cffee8393e01a60c8
+SHA1: 4b6f7b2e6b1c5915b831d8c0a13b2563b134c198
+SHA256: db952018ff809048cf3986ea0d87fddc526e407916b67dd5caa9a62d87f0b40f
+Depiction: https://itweaks.xyz/depictions/com.bdt6688.lightly/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.bdt6688.lightly/index.json
+
+Package: com.widget.wg12
+Name: WG12
+Version: 1.0
+Architecture: iphoneos-arm
+Description: widget LS and HS cool.
+Section: Widgets
+Author: thuan_vn
+Maintainer: thuan_vn
+Filename: ./debs/widget/com.widget.wg12_1.0_iphoneos-arm.deb
+Size: 279390
+MD5sum: 90f373f47511b57a3b6f88daba216cb4
+SHA1: 2cd6a4e8190aa6945e6c4864802349daa66991d8
+SHA256: d1bfcbcc1d81f501e24067c2fa5d39a255de135b62dad07b84df641a54654d6a
+Depiction: https://itweaks.xyz/depictions/com.widget.wg12/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.widget.wg12/index.json
+
+Package: com.widget.ls-lock2
+Name: LS-LOCK2
+Version: 1.0
+Architecture: iphoneos-arm
+Description: widget LS cool.
+Section: Widgets
+Author: thuan_vn
+Maintainer: thuan_vn
+Filename: ./debs/widget/com.widget.ls-lock2_1.0_iphoneos-arm.deb
+Size: 641560
+MD5sum: 7774e33ece42f792d444aa2b07f33a28
+SHA1: 8ec4805fc012afa5b9872dd1563fb26a41d44a6d
+SHA256: e666e971cd19880b910b496adcaf38881561a2825d300700d0b0091347bb2077
+Depiction: https://itweaks.xyz/depictions/com.widget.ls-lock2/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.widget.ls-lock2/index.json
+
+Package: com.theme.goji
+Name: Goji
+Version: 2.0.0
+Architecture: iphoneos-arm
+Section: Themes
+Description: Goji is a flat and delicious theme for iOS 8-12.
+Author: gab3h3rn
+Maintainer: gab3h3rn
+Filename: ./debs/theme/com.theme.goji_2.0.0.deb
+Size: 3698798
+MD5sum: 4068844a2293b3932f25aab68ce8fb8f
+SHA1: b4d691414eb5aa9914d86d7eed984e811de20c85
+SHA256: f615302ea4c86e472fb9a3229468fcadacaba603b9ce8e9833bc934bc77419c9
+Depiction: https://itweaks.xyz/depictions/com.theme.goji/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.goji/index.json
+
+Package: com.theme.aria
+Name: Aria
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Aria is a flat and delicious theme for iOS 8-12.
+Section: Themes
+Author: djetouch
+Maintainer: cystorekit
+Filename: ./debs/theme/com.theme.aria_1.0.deb
+Size: 513578
+MD5sum: e5b4bb19bc32957b5697b9c5c980ea78
+SHA1: feaffd5d59d57bf411fd8c6882f123b051346205
+SHA256: 967491d907a95eb734c6e8aafcee512a583b9c70defc0404f2009b7d9fce5d54
+Depiction: https://itweaks.xyz/depictions/com.theme.aria/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.aria/index.json
+
+Package: com.theme.34aa
+Name: 34aa
+Version: 1.2
+Architecture: iphoneos-arm
+Description: Flat with style
+Author: tvdmd
+Section: Themes
+Maintainer: cystorekit
+Filename: ./debs/theme/com.theme.34aa_1.2_iphoneos-arm.deb
+Size: 7823584
+MD5sum: 4f5f69616a6793598e408a35e3b617fe
+SHA1: 4841220919252234070061b298c65a9d19c8cafa
+SHA256: 43999265571993a335a163704d43a4ee1339d8580668ff986076ad09e587c678
+Depiction: https://itweaks.xyz/depictions/com.theme.34aa/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.34aa/index.json
+
+Package: com.theme.acaiforiphone
+Name: Acai for iPhone
+Version: 1.0
+Architecture: iphoneos-arm
+Description: The colourful, fun theme for iOS!
+Author: idkjoel
+Section: Themes
+Maintainer: cystorekit
+Filename: ./debs/theme/com.theme.acaiforiphone_1.0.deb
+Size: 614174 
+MD5sum: e8a198abc67cdd4f9664ebace2068718
+SHA1: fbabadc2b31f42f43f52ab0379a06cbb460ff3cf
+SHA256: edf6d641c517d8bb75491a01a633f103f4151a4ff30419101ec9cd9f80b08523
+Depiction: https://itweaks.xyz/depictions/com.theme.acaiforiphone/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.acaiforiphone/index.json
+
+Package: com.theme.amana
+Name: Amana
+Version: 1.2
+Architecture: iphoneos-arm
+Description: theme Flat with style
+Author: Dulin
+Section: Themes
+Maintainer: cystorekit
+Filename: ./debs/theme/com.theme.amana_1.2.deb
+Size: 3300786
+MD5sum: c309dd9095a696d319fbfe75ba4dc551
+SHA1: 32058318806b92658e160c867bd0d0277ad26013
+SHA256: 4525df31e97a531993e622fd34974b7d59f7b3788d7dc84581bb5fa18458504f
+Depiction: https://itweaks.xyz/depictions/com.theme.amana/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.amana/index.json
+
+Package: com.theme.aromy
+Name: Aromy
+Version: 1.3
+Architecture: iphoneos-arm
+Description: cool theme.
+Section: Themes
+Author: TimeLoop
+Maintainer: cystorekit
+Filename: ./debs/theme/com.theme.aromy_1.3.deb
+Size: 2216752
+MD5sum: 1a332efefe34cbc047aa9784f215430a
+SHA1: 3fc2d4b56aee032feab3701a2f9a102c5fa4e823
+SHA256: 4e3dbcfe25a2c775f764ec555fe366fb96920dc75e4c6fc0565850ee52017975
+Depiction: https://itweaks.xyz/depictions/com.theme.aromy/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.aromy/index.json
+
+Package: com.theme.felicity
+Name: Felicity
+Version: 3.0
+Architecture: iphoneos-arm
+Description: Flat theme.
+Author: XerusDesign
+Section: Themes
+Maintainer: cystorekit
+Filename: ./debs/theme/com.theme.felicity_3.0_iphoneos-arm.deb
+Size: 5451172
+MD5sum: c39063a66fa65d935c8108735c6eb319
+SHA1: 153fff40846932c685377c7aeb19d664646e2a0a
+SHA256: bd35d23f41d2c7b83f44365b19eac204b355eadddbe3d19b4c892aa8b5c56986
+Depiction: https://itweaks.xyz/depictions/com.theme.felicity/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.felicity/index.json
+
+Package: com.theme.mojito
+Name: Mojito
+Version: 2.0.2
+Architecture: iphoneos-arm
+Description: A skeuomodern theme.
+Section: Themes
+Author: Unikue Hobby <bednarz@unikue.solutions>
+Maintainer: cystorekit
+Filename: ./debs/theme/com.theme.mojito_2.0.2.deb
+Size: 2219392
+MD5sum: d2d5e97d8cbccfdbb612f568f8135ae5
+SHA1: d95d692599336618796e496900f19ed283b626db
+SHA256: 3b37d8a5111a50a848d432c79117b85c7439de574ac9add154333334ef63e19f
+Depiction: https://itweaks.xyz/depictions/com.theme.mojito/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.mojito/index.json
+
+Package: com.theme.muffin
+Name: Muffin
+Version: 1.3
+Architecture: iphoneos-arm
+Section: Themes
+Description: Nice Colors themes.
+Author: ArkLotif <arklotif@gmail.com>
+Maintainer: cystorekit
+Filename: ./debs/theme/com.theme.muffin_1.3.deb
+Size: 369450
+MD5sum: af3389e71a1ba0cffcecae3134e32348
+SHA1: 0245af09d91a620091ae82c73a6ed2cee16a329e
+SHA256: c916972a2f1df0cecf7e86a24edd0ba883dd9dd7ab06a883f0c261ec8d14e684
+Depiction: https://itweaks.xyz/depictions/com.theme.muffin/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.muffin/index.json
+
+Package: com.theme.muze4
+Name: Muze 4
+Version: 1.04
+Architecture: iphoneos-arm
+Description: Colourful explosions. Now with extra colour.
+Author: Kogulan (Purdix)
+Section: Themes
+Maintainer: Kogulan
+Filename: ./debs/theme/com.theme.muze4_1.04_iphoneos-arm.deb
+Size: 6829414
+MD5sum: 9f8fe8867c7e8840f8f6c27ac88eb0f5
+SHA1: a2353ad09540ee72af85f9ff50117e266157d26c
+SHA256: f157e850f9186ffece0ec3d84855fac6654adbc46bdb3339cb507338bc510192
+Depiction: https://itweaks.xyz/depictions/com.theme.muze4/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.muze4/index.json
+
+Package: com.theme.oyster
+Name: Oyster
+Version: 1.0
+Architecture: iphoneos-arm
+Description: theme cool ios.
+Section: Themes
+Author: ArkLotif <arklotif@gmail.com>
+Maintainer: cystorekit
+Filename: ./debs/theme/com.theme.oyster_1.0.deb
+Size: 859092
+MD5sum: 30b5de2a2653b0d7dfc0dcf8ff17113d
+SHA1: 27643765418f22ccfd77166b67ff7d1e8e4f734b
+SHA256: 14e70f16cf629cd8c59988587e2aaf5e539fbfaa951f2b612446f63779369062
+Depiction: https://itweaks.xyz/depictions/com.theme.oyster/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.oyster/index.json
+
+Package: com.theme.tumbi
+Name: Tumbi
+Version: 2.0
+Architecture: iphoneos-arm
+Description: A fun, minimal theme for iOS.
+Author: Nickilas <nickkarr8@gmail.com>
+Section: Themes
+Maintainer: cystorekit
+Filename: ./debs/theme/com.theme.tumbi_2.0_iphoneos-arm.deb
+Size: 3798328
+MD5sum: abdc1b0e83888cfda8490318652bbb35
+SHA1: d7a63d7b0974a0e097b1042319071e0267baa9f3
+SHA256: 57d3d41a6f76e617c250db7f50d1f159ea71895c1581608834b9620e73f10091
+Depiction: https://itweaks.xyz/depictions/com.theme.tumbi/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.tumbi/index.json
+
+Package: com.theme.veexillum
+Name: Veexillum
+Version: 2.8
+Architecture: iphoneos-arm
+Description: Theme Flat with style
+Author: Veerklempt
+Section: Themes
+Maintainer: cystorekit
+Filename: ./debs/theme/com.theme.veexillum_2.8.deb
+Size: 1293400
+MD5sum: 6b3dadfb137e2337d0f935b45b205c7d
+SHA1: 70d66e21b7e33a746725a90cd64d2d63be25e408
+SHA256: f330a21725085cce01900821c415820f67417bdd2bcbcfcf0349cb1dc99f006c
+Depiction: https://itweaks.xyz/depictions/com.theme.veexillum/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.veexillum/index.json
+
+Package: com.theme.viola
+Name: Viola
+Version: 1.1.0
+Section: Themes
+Description: Theme cool for iOS 8-12.
+Architecture: iphoneos-arm
+Maintainer: Bousrih
+Author: Bousrih
+Filename: ./debs/theme/com.theme.viola_1.1.0_iphoneos-arm.deb
+Size: 7189724
+MD5sum: f2828837b72964d93f8c1a9493c8e994
+SHA1: 0eb8f64118f89aad6bdde2062da8c787f2a7a81d
+SHA256: 11c4cbbc7834525a3b33d01790d87d406ab1c0a45131fc247d9571153f15eb70
+Depiction: https://itweaks.xyz/depictions/com.theme.viola/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.viola/index.json
+
+Package: com.theme.jool
+Name: Jool
+Version: 6.0
+Architecture: iphoneos-arm
+Description: Chủ đề cool nhất mà bạn từng thấy.
+Author: Colby Roark
+Section: Themes
+Maintainer: Colby
+Filename: ./debs/theme/com.theme.jool_6.0.deb
+Size: 1653944
+MD5sum: fcc5dc5964de53e26f14f9e086d90288
+SHA1: 0d6219dddce27c10558d456834ef0a538dd02cc2
+SHA256: 6c31564ca05e7d01e2ef0169543b8b94fb2dcd5654da6ccbbfa7c8e46fdd8f6f
+Depiction: https://itweaks.xyz/depictions/com.theme.jool/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.jool/index.json
+
+Package: com.theme.acenx
+Name: ACE NX
+Version: 1.0
+Architecture: iphoneos-arm
+Description: theme cool
+Section: Themes
+Maintainer: iAnas
+Author: iAnas
+Filename: ./debs/theme/com.theme.acenx_1.0_iphoneos-arm.deb
+Size: 4454172
+MD5sum: 8d11055f5a03370c75d2668359cfcd30
+SHA1: 246d89d4257d8586d1693de698b1c064b484590d
+SHA256: bbb8e820b226b22329d94e3eae19f2e0104d67fca22c1b303a86d0e9a3f8725e
+Depiction: https://itweaks.xyz/depictions/com.theme.acenx/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.acenx/index.json
+
+Package: com.theme.aday
+Name: Aday
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Aday is a new beautiful theme
+Section: Themes
+Maintainer: ldkays
+Author: ldkays <logo.design@outlook.fr>
+Filename: ./debs/theme/com.theme.aday_1.1_iphoneos-arm.deb
+Size: 5082300
+MD5sum: 10eb6d30fcd1ac11f8ac7bb0132b07ed
+SHA1: 56d51946106b56c3a5228c1aef06756240d05227
+SHA256: b0c95443344693dfdf0a86ff80c68395856992876ad2eda1ab0f008d2d7db61f
+Depiction: https://itweaks.xyz/depictions/com.theme.aday/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.aday/index.json
+
+Package: com.theme.aero
+Name: Aero
+Version: 1.2.0
+Architecture: iphoneos-arm
+Description: theme ios
+Section: Themes
+Maintainer: KrisJayOnline
+Author: KrisJayOnline
+Filename: ./debs/theme/com.theme.aero_1.2.0_iphoneos-arm.deb
+Size: 1964050
+MD5sum: d4be8cbbd21dcf09ba56caf267307939
+SHA1: aa70d37b3b54dc65763b8af9e3643cfb96b7c694
+SHA256: d3e6e3b4050c3e5acd622cc475aacca6aca25515a675f78d191e4ab19cd4bda8
+Depiction: https://itweaks.xyz/depictions/com.theme.aero/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.aero/index.json
+
+Package: com.theme.allegroEssenza
+Name: allegroEssenza
+Version: 2.2.0
+Architecture: iphoneos-arm
+Description: theme ios 8-12
+Section: Themes
+Maintainer: Dexterilgatto
+Author: Dexterilgatto
+Filename: ./debs/theme/com.theme.allegroEssenza_2.2.0_iphoneos-arm.deb
+Size: 2203950
+MD5sum: 9d633439bdccca1e54c6abfce285e04c
+SHA1: 2eb176ae561e2a0561f227830c2fa5a0cc5dd024
+SHA256: 3ac2a65a28abcb5fabf100e161ad151b504990840f2b666e3c8751327cb6a2b2
+Depiction: https://itweaks.xyz/depictions/com.theme.allegroEssenza/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.allegroEssenza/index.json
+
+Package: com.theme.amury
+Name: Amury
+Version: 1.8
+Architecture: iphoneos-arm
+Description: Bring your iOS experience to life.
+Section: Themes
+Maintainer: Alex Sanche
+Author: Alex Sanchez <alexsanchez318824@icloud.com>
+Filename: ./debs/theme/com.theme.amury_1.8_iphoneos-arm.deb
+Size: 7466926
+MD5sum: 732d826e4ecefb1f1570eb5a945df5e4
+SHA1: e90d45e8233e1b53bf6f0eaf53fbc77360e78eb5
+SHA256: d7a4b907d9f348aa6a7ffec8c222d13051cb1611757e7b76af7977a5d9e57bc6
+Depiction: https://itweaks.xyz/depictions/com.theme.amury/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.amury/index.json
+
+Package: com.theme.axla3
+Name: Axla3
+Version: 1.2
+Architecture: iphoneos-arm
+Description: Simplicity with Colour
+Section: Themes
+Maintainer: Andy
+Author: Andy (meteochu) <andy@meteochu.me>
+Filename: ./debs/theme/com.theme.axla3_1.2_iphoneos-arm.deb
+Size: 5482330
+MD5sum: d4bf58b8c3645db164ff188128bf4b74
+SHA1: b72c39b33fb92cb09dcdfff7bbf57aaeb7e1323f
+SHA256: 457aedaa9a9d3257562d9db6cdaff0c74e78815a725e8e5d9b29e189642558e9
+Depiction: https://itweaks.xyz/depictions/com.theme.axla3/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.axla3/index.json
+
+Package: com.theme.belt
+Name: Belt
+Version: 2.2.0
+Architecture: iphoneos-arm
+Description: theme ios 8-12
+Section: Themes
+Maintainer: Haris Danu
+Author: Haris Danu
+Filename: ./debs/theme/com.theme.belt_2.2.0_iphoneos-arm.deb
+Size: 2924030
+MD5sum: ddedd5a20782f3df012c2b9c1324be01
+SHA1: 4b6bdffbb6d4855111a7235818b0fb1e4b6caa68
+SHA256: 104c17dc5b9066384475b58e14004be87613f82cd4e11ca7c42cddae5e099986
+Depiction: https://itweaks.xyz/depictions/com.theme.belt/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.belt/index.json
+
+Package: com.theme.blackhole
+Name: Blackhole
+Version: 2.2.0
+Architecture: iphoneos-arm
+Description: theme ios 8-12
+Section: Themes
+Maintainer: Haris Danu
+Author: Haris Danu
+Filename: ./debs/theme/com.theme.blackhole_2.2.0_iphoneos-arm.deb
+Size: 3007162
+MD5sum: 74319c864b7b748cb1e1323bc776bf06
+SHA1: dd7a24abdc125ef89835d8136a525398318970cc
+SHA256: e1a06ddb81d8a3459601d7f2993964d1edfdde5b7ef663f0539d8a7723fa692f
+Depiction: https://itweaks.xyz/depictions/com.theme.blackhole/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.blackhole/index.json
+
+Package: com.theme.blu3b3rry
+Name: Blu3B3rry
+Version: 2.0.2
+Architecture: iphoneos-arm
+Description: theme ios >= 8.0
+Section: Themes
+Maintainer: Sl3in82
+Author: Sl3in82
+Filename: ./debs/theme/com.theme.blu3b3rry_2.0.2_iphoneos-arm.deb
+Size: 5701458
+MD5sum: 4c429f9f970a24020dc8b67742b45778
+SHA1: fc4ec32034b05c8d6ce50990112cfada3c6f7c69
+SHA256: f62bdbae9f3d2bf8a2117a5ac28bbb59cb822da6fd1827617251bfbbd0e9d7f2
+Depiction: https://itweaks.xyz/depictions/com.theme.blu3b3rry/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.blu3b3rry/index.json
+
+Package: com.theme.blueberry
+Name: BlueBerry
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: firmware (>= 10.0)
+Description: theme giao dien phang ios >=10.
+Section: Themes
+Author: KVYSDESIGN 
+Maintainer: KVYSDESIGN
+Filename: ./debs/theme/com.theme.blueberry_1.0_iphoneos-arm.deb
+Size: 2539160
+MD5sum: 39e080ec2da112001d2c8c87e7ed0cf7
+SHA1: 77d8fc74c0186ca9f2f5bc3c782cbb14c198c522
+SHA256: 57ae9db1019116eac69c1ba847f64a81d4290e3f057f0d9bd9598512f90a216a
+Depiction: https://itweaks.xyz/depictions/com.theme.blueberry/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.blueberry/index.json
+
+Package: com.theme.caramel
+Name: Caramel
+Version: 1.3
+Architecture: iphoneos-arm
+Description: theme ios 8-12
+Section: Themes
+Maintainer: Axinen
+Author: Axinen
+Filename: ./debs/theme/com.theme.caramel_1.3_iphoneos-arm.deb
+Size: 3591592
+MD5sum: a9679df9c3837ab6dacaafeb327c7193
+SHA1: b2a8cf948bef125b7e4e17895061c78a771a0696
+SHA256: 08a5a940204687a086b3cfca6f31ebd671e4b95fbf4b2b6391eb099eb68b6444
+Depiction: https://itweaks.xyz/depictions/com.theme.caramel/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.caramel/index.json
+
+Package: com.theme.eliteX
+Name: EliteX
+Version: 2.0
+Architecture: iphoneos-arm
+Section: Themes
+Description: theme elite9 mod cho ios 11 & 12.
+Author: Rob Grohman
+Maintainer: Rob Grohman
+Filename: ./debs/theme/com.theme.eliteX_2.0_iphoneos-arm.deb
+Size: 2338200
+MD5sum: 49424b5041f3d41a77620f16858c2b51
+SHA1: 379377c4d462c154348774e61d700f8591fd4250
+SHA256: 2481bcecf182730277b3fe0b79e3bcf66fdec4d4bae72a52da0e7e0633c2e3fe
+Depiction: https://itweaks.xyz/depictions/com.theme.eliteX/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.eliteX/index.json
+
+Package: com.theme.fizip
+Name: Fizip
+Version: 1.2
+Architecture: iphoneos-arm
+Description: SUPER COOL and Colorful flat theme
+Section: Themes
+Author: TAKE
+Maintainer: TAKE
+Filename: ./debs/theme/com.theme.fizip_1.2_iphoneos-arm.deb
+Size: 608270
+MD5sum: ca9ee7de1f60f3e1f6551249bd617c9e
+SHA1: bdf8603aba993f039329e0ce65bf68886cd914a9
+SHA256: 4dac2baba32e6ffd0a4b266ed8d4028a63747c08f46b17d5abfca65ad7e90c0f
+Depiction: https://itweaks.xyz/depictions/com.theme.fizip/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.fizip/index.json
+
+Package: com.theme.fizz
+Name: Fizz
+Version: 2.2.0
+Architecture: iphoneos-arm
+Description: theme ios 8-12
+Section: Themes
+Maintainer: Colby Roark
+Author: Colby Roark
+Filename: ./debs/theme/com.theme.fizz_2.2.0_iphoneos-arm.deb
+Size: 621300
+MD5sum: b031732c14574cee27b50971bb0e2dcd
+SHA1: 56b1da9c9c3df1f3e153578d5039314db5d58cc5
+SHA256: 74bf7ee8eb18494326b9a64125b62195b2af93e97a3380bb75d9540ed2fbeb89
+Depiction: https://itweaks.xyz/depictions/com.theme.fizz/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.fizz/index.json
+
+Package: com.theme.fluo
+Name: Fluo
+Version: 1.0.3
+Architecture: iphoneos-arm
+Description: theme ios >= 10
+Section: Themes
+Maintainer: thuan
+Author: kvysdesign
+Filename: ./debs/theme/com.theme.fluo_1.0.3_iphoneos-arm.deb
+Size: 4829844
+MD5sum: 2f682ab6c4df46a8fa5fef85ae4271e9
+SHA1: f965595c059e282fcd593003f2b56f6065efd9c8
+SHA256: 4d582245dd73a17c9380ea00b8bf909ba185210f8f1733a52ff04b5c600f2337
+Depiction: https://itweaks.xyz/depictions/com.theme.fluo/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.fluo/index.json
+
+Package: com.theme.hage
+Name: Hage
+Version: 2.0
+Architecture: iphoneos-arm
+Description: theme ios 9-11
+Section: Themes
+Maintainer: thuan
+Author: Maa0216
+Filename: ./debs/theme/com.theme.hage_2.0_iphoneos-arm.deb
+Size: 2075320
+MD5sum: 8e7932d4ee36a82a80c1a4f0d1429208
+SHA1: 6a1e7a23e096720a8c397a471c35dfb21913e9eb
+SHA256: b247cef3c2753e30371ae54dc1ce9c92a5cbbd1a4621af9c543dd53182c787cf
+Depiction: https://itweaks.xyz/depictions/com.theme.hage/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.hage/index.json
+
+Package: com.theme.iosmojave
+Name: IOSMojave
+Version: 3.1.1
+Architecture: iphoneos-arm
+Description: theme ios >= 10
+Section: Themes
+Maintainer: thuan
+Author: iosdesigner
+Filename: ./debs/theme/com.theme.iosmojave_3.1.1_iphoneos-arm.deb
+Size: 3614108
+MD5sum: 252ec10ec4708dd5fb50689c5a3da5c8
+SHA1: 4a4e46d96f32348a3fd2193269fb35a072aaf89c
+SHA256: 4da415af04583ee459ee14c2870062d40eb1d4ac8bd24e0377f30880e55653df
+Depiction: https://itweaks.xyz/depictions/com.theme.iosmojave/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.iosmojave/index.json
+
+Package: com.theme.karma
+Name: Karma
+Version: 1.0
+Architecture: iphoneos-arm
+Description: theme gradient cool
+Section: Themes
+Maintainer: thuan
+Author: SkyThemes
+Filename: ./debs/theme/com.theme.karma_1.0_iphoneos-arm.deb
+Size: 1905124
+MD5sum: 8d2015c8a39372546a0d143cb8574850
+SHA1: 0973cd52ddf3e309dd454588c44a0bf061229334
+SHA256: 0c8b566ad0df63daf44d5e0a5e544c6af7699253394edda16849f51c624e9f3e
+Depiction: https://itweaks.xyz/depictions/com.theme.karma/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.karma/index.json
+
+Package: com.theme.kvasir2
+Name: Kvasir2
+Version: 1.0
+Architecture: iphoneos-arm
+Description: theme ios >=10
+Section: Themes
+Maintainer: thuan
+Author: liamthynne
+Filename: ./debs/theme/com.theme.kvasir2_1.0_iphoneos-arm.deb
+Size: 1197840
+MD5sum: d3d712fd2cb3900ead587102b15f4294
+SHA1: b6c771ac4bf49c2144d73a347d42fabc54a2de00
+SHA256: b61fd742d7bf85d844fd3695fe491a34d7443920e6676f51d1dbd10e604c734f
+Depiction: https://itweaks.xyz/depictions/com.theme.kvasir2/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.kvasir2/index.json
+
+Package: com.theme.limelight
+Name: Limelight
+Version: 1.2.0
+Architecture: iphoneos-arm
+Description: theme ios 9-12
+Section: Themes
+Maintainer: thuan
+Author: ty_ios
+Filename: ./debs/theme/com.theme.limelight_1.2.0_iphoneos-arm.deb
+Size: 8192960
+MD5sum: f63d9be5c8fa0aeef418b9eab10dd208
+SHA1: 1434085ada8031817b43dc25f4aa0c553ebf611b
+SHA256: f7644963ec412c9f9031007890773f4f26e305cf071b4f8d06084211ad8dfeea
+Depiction: https://itweaks.xyz/depictions/com.theme.limelight/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.limelight/index.json
+
+Package: com.theme.linear2
+Name: linear2
+Version: 1.1
+Architecture: iphoneos-arm
+Description: theme ios 9-12
+Section: Themes
+Maintainer: LazyNagy
+Author: LazyNagy
+Filename: ./debs/theme/com.theme.linear2_1.1_iphoneos-arm.deb
+Size: 2092596
+MD5sum: b090f34ec9814962be704f43400c75ec
+SHA1: e415d85423962fb67c5929b11001a1800c55d7f8
+SHA256: f73b92ec093666325d61aaa9e47b8b66d93c42a53ad65c24570662b5da1cdc4f
+Depiction: https://itweaks.xyz/depictions/com.theme.linear2/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.linear2/index.json
+
+Package: com.theme.loomy
+Name: L00MY
+Version: 1.0
+Architecture: iphoneos-arm
+Description: theme ios >= 10
+Section: Themes
+Maintainer: thuan
+Author: thedezigner
+Filename: ./debs/theme/com.theme.loomy_1.0_iphoneos-arm.deb
+Size: 3761868
+MD5sum: 07c76675df3d375b2fcc78f9f4419b26
+SHA1: 40962c139433f8b7c146a907b416e672bd71f7ea
+SHA256: c78076048e2eb2f528387fff0af3da8d27e2df24f36a5b732240bbbeb10d61e9
+Depiction: https://itweaks.xyz/depictions/com.theme.loomy/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.loomy/index.json
+
+Package: com.theme.lotus
+Name: Lotus
+Version: 1.0
+Architecture: iphoneos-arm
+Section: Themes
+Description: Một chủ đề tinh tế đơn giản ios
+Maintainer: orenjiiiro
+Author: orenjiiiro
+Filename: ./debs/theme/com.theme.lotus_1.0_iphoneos-arm.deb
+Size: 2843172
+MD5sum: d1d55aaccc9edc872ea3d7baf0bf1456
+SHA1: 20c17b9ffc47c9d2adf54de66d4b426d68895a94
+SHA256: 9413f4a3c38d58861b83f3bd44853b023fd693f6f4f89e7a57ddeb4141d182a7
+Depiction: https://itweaks.xyz/depictions/com.theme.lotus/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.lotus/index.json
+
+Package: com.theme.mania
+Name: Mania
+Version: 1.7.2
+Architecture: iphoneos-arm
+Description: theme ios 8-12
+Section: Themes
+Maintainer: Soda
+Author: Soda
+Filename: ./debs/theme/com.theme.mania_1.7.2_iphoneos-arm.deb
+Size: 1916436
+MD5sum: fc1ddf9d068d316be92891d1f567032e
+SHA1: 6705f24d14baa59b8578ac9266a39f3df7864bef
+SHA256: cdbe2089c2d99cf421880bd56b0d7eb6d5ecd8a78fb8dfbcae6000faefefa6d0
+Depiction: https://itweaks.xyz/depictions/com.theme.mania/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.mania/index.json
+
+Package: com.theme.milkshake
+Name: MilkShake
+Version: 1.6
+Architecture: iphoneos-arm
+Description: theme cool
+Section: Themes
+Maintainer: ArkLotif
+Author: ArkLotif
+Filename: ./debs/theme/com.theme.milkshake_1.6_iphoneos-arm.deb
+Size: 399720
+MD5sum: 917c4e85e8ec60f02e3b2b3660fa0327
+SHA1: 2d4ccb6189b69f812acb6e5328c7c09ca6508f69
+SHA256: eadafe7fea709d403dae2c8e7ecc61a5a63985bc09f1e4d8d0df223109090abc
+Depiction: https://itweaks.xyz/depictions/com.theme.milkshake/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.milkshake/index.json
+
+Package: com.theme.nagasari
+Name: Nagasari
+Version: 1.0
+Architecture: iphoneos-arm
+Description: theme ios 9-12
+Section: Themes
+Maintainer: Frenchitouch
+Author: Frenchitouch
+Filename: ./debs/theme/com.theme.nagasari_1.0_iphoneos-arm.deb
+Size: 2072708
+MD5sum: 2588eb93cc3efb1b100de89a0753d59d
+SHA1: deeae1592081179be54d17eeaee532a2e1035e7a
+SHA256: 204a0883cd2b8305eb60ddfbb9fc76d1bf1ed8124587ab3cf23d0bfa9bac33ac
+Depiction: https://itweaks.xyz/depictions/com.theme.nagasari/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.nagasari/index.json
+
+Package: com.theme.neworder
+Name: NewOrder
+Version: 1.0
+Architecture: iphoneos-arm
+Description: theme ios 9-12
+Section: Themes
+Maintainer: Tdmd
+Author: Tdmd
+Filename: ./debs/theme/com.theme.neworder_1.0_iphoneos-arm.deb
+Size: 3221804
+MD5sum: 51181b23f2c3917ffd3d33fb4b0c3541
+SHA1: d9c7b4ce6e751080feb0781d2adab1a6a1e7e382
+SHA256: b7bd0746cc82008dd07f764b9d92e5267b4df001e83baeed8b9035a0ff28d014
+Depiction: https://itweaks.xyz/depictions/com.theme.neworder/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.neworder/index.json
+
+Package: com.theme.nuera
+Name: NUERA
+Version: 1.0
+Architecture: iphoneos-arm
+Description: theme ios 9-12
+Section: Themes
+Maintainer: KrisJayOnline
+Author: KrisJayOnline
+Filename: ./debs/theme/com.theme.nuera_1.0_iphoneos-arm.deb
+Size: 4853300
+MD5sum: 7debdcd170d6dd0ae7fbda830fb6ed4c
+SHA1: 73063cbe68de7a81b6571b383e599ef78813dabe
+SHA256: 1f0463ab4e689022af841a69ece6e3471030c36152b0271c0a8f176d22386188
+Depiction: https://itweaks.xyz/depictions/com.theme.nuera/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.nuera/index.json
+
+Package: com.theme.pasties
+Name: Pasties
+Version: 1.0
+Architecture: iphoneos-arm
+Description: theme ios >=9
+Section: Themes
+Maintainer: Tdmd
+Author: Tdmd
+Filename: ./debs/theme/com.theme.pasties_1.0_iphoneos-arm.deb
+Size: 1988264
+MD5sum: c63334eda20055df5c9ddd521575a4f1
+SHA1: f76b697cfb4593eb5c234a1301682fc970fcc875
+SHA256: ee2c4624b4a782fba4c95b4fe62b4f60a60caae36b325cff82cb004d11e12c32
+Depiction: https://itweaks.xyz/depictions/com.theme.pasties/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.pasties/index.json
+
+Package: com.theme.pura
+Name: PURA
+Version: 1.0
+Architecture: iphoneos-arm
+Description: theme ios >=9
+Section: Themes
+Maintainer: MlRhv
+Author: MlRhv
+Filename: ./debs/theme/com.theme.pura_1.0_iphoneos-arm.deb
+Size: 2744712
+MD5sum: ebdfeb9399ea673af854a6d38dec053e
+SHA1: 1bf31c0801d587ab649e9d6e122144ab7e72b95a
+SHA256: 8eb37e1d9414a777ab57bec8f8ad1a4bb91a26a86d6b0775c265d23e824935d2
+Depiction: https://itweaks.xyz/depictions/com.theme.pura/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.pura/index.json
+
+Package: com.theme.rupy
+Name: RUPY
+Version: 1.0
+Architecture: iphoneos-arm
+Description: theme ios >=9
+Section: Themes
+Maintainer: 2mille10Fuck
+Author: 2mille10Fuck
+Filename: ./debs/theme/com.theme.rupy_1.0_iphoneos-arm.deb
+Size: 600816
+MD5sum: 242ea2f158ab8c5ef2853e5788a86a4f
+SHA1: 687eee1e9be42a3403b9d2a5ecd1423499371389
+SHA256: eed7c30d5e1e3d1f85c5b940968fb6811d8cf26ed9bfd731fe0d7eab8b53b706
+Depiction: https://itweaks.xyz/depictions/com.theme.rupy/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.rupy/index.json
+
+Package: com.theme.soft
+Name: Soft for iOS
+Version: 1.2.0
+Architecture: iphoneos-arm
+Description: theme ios >=9
+Section: Themes
+Maintainer: Chrisiyg
+Author: Chrisiyg
+Filename: ./debs/theme/com.theme.soft_1.2.0_iphoneos-arm.deb
+Size: 2552356
+MD5sum: 5f325c3b2a7a5a9b7dc4fc7ff1ee5070
+SHA1: d2b5100f4004577d3144fb027f845925685ef60d
+SHA256: 1c1d22b14c13fa2437921dc0cc74c1c6c3082f097f6534c8b03d0560ad4f25db
+Depiction: https://itweaks.xyz/depictions/com.theme.soft/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.soft/index.json
+
+Package: com.theme.spacepotatosalad
+Name: SpacePotatoSalad
+Version: 1.2.2
+Architecture: iphoneos-arm
+Description: theme ios >=9
+Section: Themes
+Maintainer: Tdmd
+Author: Tdmd
+Filename: ./debs/theme/com.theme.spacepotatosalad_1.2.2_iphoneos-arm.deb
+Size: 2661420
+MD5sum: 88f472358a6a14a5fac7f2d9f9daa9ad
+SHA1: c1ed87d97156dbe551afd4f1c40c2f302278e714
+SHA256: 9042f641f4069c2a49a950480222b197f4c261c5b9cfff0916c00ef60a9d7889
+Depiction: https://itweaks.xyz/depictions/com.theme.spacepotatosalad/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.spacepotatosalad/index.json
+
+Package: com.theme.swee10
+Name: Swee10
+Version: 1.4
+Architecture: iphoneos-arm
+Description: theme ios >=9
+Section: Themes
+Maintainer: Chris59
+Author: Chris59
+Filename: ./debs/theme/com.theme.swee10_1.4_iphoneos-arm.deb
+Size: 6864004
+MD5sum: e836a97a62d354fce83e0f5c6ae6a99e
+SHA1: 1ebacc19d435d7b886b5d23f2b259522507ecf75
+SHA256: aca8a2b733a075d91f8bd4f8544f1acfff13eaa04451fa61498d59c71520c456
+Depiction: https://itweaks.xyz/depictions/com.theme.swee10/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.swee10/index.json
+
+Package: com.theme.swisscheese
+Name: SwissCheese
+Version: 1.5
+Architecture: iphoneos-arm
+Description: theme ios >=9
+Section: Themes
+Maintainer: Alazybrick
+Author: Alazybrick
+Filename: ./debs/theme/com.theme.swisscheese_1.5_iphoneos-arm.deb
+Size: 1361996
+MD5sum: 87a009b53a2d761566e75cd2eb403c0d
+SHA1: d5e99383069bd4ac963b56c05ea4d452f4d75939
+SHA256: 9b706d61d920709857d13f47210d9a16640a94cae785ad47f62dac2f8a976de5
+Depiction: https://itweaks.xyz/depictions/com.theme.swisscheese/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.swisscheese/index.json
+
+Package: com.theme.swisschoco
+Name: SwissChoco
+Version: 1.5
+Architecture: iphoneos-arm
+Description: theme ios >= 10
+Section: Themes
+Maintainer: Alazybrick
+Author: Alazybrick
+Filename: ./debs/theme/com.theme.swisschoco_1.5_iphoneos-arm.deb
+Size: 4838304
+MD5sum: 1de18ad8333bc5e2e972cbcebda82223
+SHA1: 893b384084b34eccb41dc4537cfa68958fe93ce5
+SHA256: 0cf0224d4c9d2db4ca3033436b69486b52dc3ce1b5c1f50e4c994f857674dc66
+Depiction: https://itweaks.xyz/depictions/com.theme.swisschoco/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.swisschoco/index.json
+
+Package: com.theme.taffy
+Name: Taffy
+Version: 1.0
+Architecture: iphoneos-arm
+Description: theme ios 11
+Section: Themes
+Maintainer: ArkLotif
+Author: ArkLotif
+Filename: ./debs/theme/com.theme.taffy_1.0_iphoneos-arm.deb
+Size: 512224
+MD5sum: 8d8faca1c0ba9a0d673b8125baf58839
+SHA1: 8620884812507d843bec918e27edb8f83b5b3200
+SHA256: ec26d2f4c5612f10a9e2c51485318ef67519c971c0a77290e33263b037031fd3
+Depiction: https://itweaks.xyz/depictions/com.theme.taffy/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.taffy/index.json
+
+Package: com.theme.trivice
+Name: Trivice
+Version: 1.7.1
+Architecture: iphoneos-arm
+Description: theme ios >=9
+Section: Themes
+Maintainer: thuan
+Author: Dooverty
+Filename: ./debs/theme/com.theme.trivice_1.7.1_iphoneos-arm.deb
+Size: 636868
+MD5sum: b0822f27b13b6cef3411adcfd6baccda
+SHA1: f0211587be0032d7d481566662e6e7074035d38c
+SHA256: df07f3ee71bd40b6681e5748efb89fa0890a1731c7eca187f693bfe431c1ea00
+Depiction: https://itweaks.xyz/depictions/com.theme.trivice/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.trivice/index.json
+
+Package: com.theme.twelve
+Name: Twelve
+Version: 1.4
+Architecture: iphoneos-arm
+Description: A smoother and Brighter experience.
+Section: Themes
+Author: psprrom 
+Maintainer: thuan
+Filename: ./debs/theme/com.theme.twelve_1.4_iphoneos-arm.deb
+Size: 4071496
+MD5sum: 86baf3346bfc42a49fa2134a77b922ab
+SHA1: 5ee172341a062db688bbb47300019a14d6b0b789
+SHA256: e13012308d246701a6df2438ac0b1d3a8c3a81344cff08905f1e49e655ebd0ee
+Depiction: https://itweaks.xyz/depictions/com.theme.twelve/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.twelve/index.json
+
+Package: com.theme.uyel
+Name: Uyel
+Version: 1.0
+Architecture: iphoneos-arm
+Description: theme ios >=9
+Section: Themes
+Maintainer: Haris Danu
+Author: Haris Danu
+Filename: ./debs/theme/com.theme.uyel_1.0_iphoneos-arm.deb
+Size: 1152648
+MD5sum: fe52416e09bf17c3c62336f26cb1838b
+SHA1: b75a5ae622e3d7d9f9f10f7b73482532c9b4d0ab
+SHA256: 0347bcadbe23dec14f0ce26691adfce35b4f9f75b70d326471659e85c4d50e61
+Depiction: https://itweaks.xyz/depictions/com.theme.uyel/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.uyel/index.json
+
+Package: com.theme.zombie
+Name: Zombie
+Version: 1.0
+Architecture: iphoneos-arm
+Description: theme zombie ios >=10
+Section: Themes
+Maintainer: Haris Danu
+Author: Haris Danu
+Filename: ./debs/theme/com.theme.zombie_1.0_iphoneos-arm.deb
+Size: 2757684
+MD5sum: 162fd71c3dd80fb352cf508e414c3239
+SHA1: 133839e8bb00e19abab31740a02a65d940cbdd6f
+SHA256: 2e43d1b8596ddf3103acdb2839461e9f3bf4bf5360dc688e1d2d47c82c74e43d
+Depiction: https://itweaks.xyz/depictions/com.theme.zombie/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.zombie/index.json
+
+Package: com.theme.zoop
+Name: ZOOP
+Version: 1.1.1
+Architecture: iphoneos-arm
+Description: theme ios >=10
+Section: Themes
+Maintainer: thuan
+Author: LazyNagy
+Filename: ./debs/theme/com.theme.zoop_1.1.1_iphoneos-arm.deb
+Size: 1648916
+MD5sum: ea2e8f55b01db6ded3179301c4462f58
+SHA1: 144a08441a780e0f886b4bcd4b3888387c338259
+SHA256: e18a39b3cd568920fa4c59f0ca7f09d98fc7fcf2edcadd0d05e562ee106c345b
+Depiction: https://itweaks.xyz/depictions/com.theme.zoop/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.zoop/index.json
+
+Package: com.theme.snowdrop
+Name: Snowdrop
+Version: 1.0
+Architecture: iphoneos-arm
+Section: Themes
+Description: snowdrop is a flat theme for iOS.
+Author: @alexmndz_503
+Maintainer: alexmndz_503
+Filename: ./debs/theme/com.theme.snowdrop_1.0_iphoneos-arm.deb
+Size: 2103692
+MD5sum: f5d8c91c7f7ae7451538ae244ace4565
+SHA1: 19f6168f8e71d386211914b12c37dd04bfaaa6a6
+SHA256: 937ed694cde0a5ceef31d910ea7f9915fc88fe78abd116b2eee401727e35d51e
+Depiction: https://itweaks.xyz/depictions/com.theme.snowdrop/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.snowdrop/index.json
+
+Package: com.theme.biscuit
+Name: Biscuit
+Version: 1.0
+Architecture: iphoneos-arm
+Section: Themes
+Description: Biscuit theme for iOS 9-12. 
+Maintainer: ArkLotif <arklotif@gmail.com>
+Author: ArkLotif <arklotif@gmail.com>
+Filename: ./debs/theme/com.theme.biscuit_1.0_iphoneos-arm.deb
+Size: 10960820
+MD5sum: 3ab43689ff5f28ee60e1ff97b445cbc3
+SHA1: b368a21f7f8c52514c6f41c8445722041e4900e5
+SHA256: cae98119ea33f84ebaa6777273aa91b0deadf64aa208c3115dbd739bbd36b724
+Depiction: https://itweaks.xyz/depictions/com.theme.biscuit/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.biscuit/index.json
+
+Package: com.theme.yuka
+Name: YUKA
+Version: 1.0
+Architecture: iphoneos-arm
+Description: YUKA theme ios 9-12.
+Section: Themes
+Author: LukeThacker2 <luketh4cker@gmail.com>
+Maintainer: Thuan_vn
+Filename: ./debs/theme/com.theme.yuka_1.0.deb
+Size: 884998
+MD5sum: e47be5b935a7912a0538dec3326b0d04
+SHA1: 2521cdf80db0edbc0a56517a4a07454f25c0cc6e
+SHA256: 343c8e70e32a0f5fe8c95614a173214f175addb0db7c6d9c4c17007d9c1823b5
+Depiction: https://itweaks.xyz/depictions/com.theme.yuka/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.yuka/index.json
+
+Package: com.theme.pebbli
+Name: Pebbli
+Version: 1.0
+Architecture: iphoneos-arm
+Section: Themes
+Description: A \'mini\'mal theme
+Maintainer: thuan_tn
+Author: JoelPowell <joel.powell@live.com>
+Filename: ./debs/theme/com.theme.pebbli_1.0.deb
+Size: 315218
+MD5sum: 83d12f6f3d1c3aa797f262e5fd8c3aef
+SHA1: 6e4438ae419f87efcc058f4d0dc13ff43835fd94
+SHA256: 92c213125ca3ac36b5a8d77c3339eb462e5dcb03401b0452453e512eb593552f
+Depiction: https://itweaks.xyz/depictions/com.theme.pebbli/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.pebbli/index.json
+
+Package: com.exile90.icleanerpro
+Name: iCleaner Pro
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi <support@ib-soft.net>
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Version: 7.7.5
+Architecture: iphoneos-arm
+Section: Utilities
+Depends: firmware (>= 4.0), findutils, shell-cmds, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Icon: file:///Applications/iCleaner.app/Icon.png
+Filename: ./debs/tweaks/com.exile90.icleanerpro_7.7.5_iphoneos-arm.deb
+Size: 5385562
+MD5sum: 5b6209151608ac092b4805833691bd9d
+SHA1: 0949f21d5f407a2e32b1b5741a1fe313d9e49aff
+SHA256: c90508a0f6782136717407639147ae5bbfba730c252ba044185a0ed072e2fccd
+Depiction: https://itweaks.xyz/depictions/com.exile90.icleanerpro/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.exile90.icleanerpro/index.json
+
+Package: com.tweak.boxy3
+Name: Boxy 3 (iOS 11 - 12)
+Version: 3.6.2
+Depends: mobilesubstrate, preferenceloader, com.chpwn.iconsupport
+Conflicts: info.rpdev.betterfiveicondock, info.rpdev.betterfivecolumnhomescreen, net.r-ch.iconoclasm, ca.ndoizo.bolders
+Architecture: iphoneos-arm
+Section: Tweaks
+Description: Fully customize your icon layout!
+Author: William Vabrinskas
+Maintainer: William Vabrinskas
+Filename: ./debs/tweaks/com.tweak.boxy3_3.6.2_iphoneos-arm.deb
+Size: 2798888
+MD5sum: 9c76058180e9b9d4b15700082e047a9f
+SHA1: efc42486d42ed5f627d0e3cf6d2b5348de4514d1
+SHA256: 857984e3952f9b47ad6eb62a0429f36b280eb806521b6e08421bf6965fad5082
+Depiction: https://itweaks.xyz/depictions/com.tweak.boxy3/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.boxy3/index.json
+
+Package: com.parrotgeek.nobetaalert
+Name: NoBetaAlert
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Hide "Please update from the iOS beta" alert (iOS 9-12.x)
+Maintainer: Ethan Nelson-Moore
+Author: Ethan Nelson-Moore
+Section: Tweaks
+Version: 1.4
+Installed-Size: 152
+Filename: ./debs/tweaks/com.parrotgeek.nobetaalert_1.4_iphoneos-arm.deb
+Size: 2990
+MD5sum: 888815b50b48d99d7fa7153c7e2c65a9
+SHA1: 97c9c937ad6dd8b51d131a10005589a1b75b8106
+SHA256: da5ddd224e251728b105b80d60bfb30cb3b12da5407de4ab5b15922f1419114b
+Depiction: https://itweaks.xyz/depictions/com.parrotgeek.nobetaalert/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.parrotgeek.nobetaalert/index.json
+
+Package: com.julioverne.ext3nder-installer
+Name: Ext3nder Installer
+Author: julioverne
+Version: 021a
+Pre-Depends: ldid, unzip, coreutils, zip, sed
+Conflicts: com.julioverne.ext3nder
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Cydia Extender Installer With Extra Features
+Homepage: http://twitter.com/ijulioverne
+Maintainer: Julio
+Section: Utilities
+Filename: ./debs/Utilities/com.julioverne.ext3nder-installer_021a_iphoneos-arm.deb
+Size: 517614
+MD5sum: 97410eb497efc82931531097c071311f
+SHA1: ecbafe7ee17c2f5baaf989ac81579827b231983d
+SHA256: 7add7422664dd3040af6ce10f68a3d200c0bb4d522ce78deb1ef2e093652f135
+Depiction: https://itweaks.xyz/depictions/com.julioverne.ext3nder/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.julioverne.ext3nder/index.json
+
+Package: com.julioverne.ext3nder-installer
+Name: Ext3nder Installer
+Author: julioverne
+Version: 022
+Pre-Depends: ldid, unzip, coreutils, zip, sed
+Conflicts: com.julioverne.ext3nder
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Cydia Extender Installer With Extra Features
+Homepage: http://twitter.com/ijulioverne
+Maintainer: Julio
+Section: Utilities
+Filename: ./debs/Utilities/com.julioverne.ext3nder-installer_022_iphoneos-arm.deb
+Size: 1947340
+MD5sum: 6df5b3bfb94867ccce01c7e98a55e582
+SHA1: cc9b94413ef419d97b29df2218d5c8dabe8a0336
+SHA256: 04a82a3c9daf1cc466dae216b4790f262f27b709bb93c71d0bea1b56c46343fe
+Depiction: https://itweaks.xyz/depictions/com.julioverne.ext3nder/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.julioverne.ext3nder/index.json
+
+Package: com.unlimapps.uaupdatetools
+Name: App Admin
+Version: 1.0r-102
+Description: Downgrade iOS apps to any previous version! No AppSync needed!!!
+Section: System
+Depends: firmware (>= 7.0), mobilesubstrate
+Conflicts: it.marcocristalli.asupdatehider
+Priority: optional
+Architecture: iphoneos-arm
+Author: UnlimApps Inc.
+Maintainer: UnlimApps Inc.
+Depiction: https://itweaks.xyz/depictions/com.tweak.appadmin/index.html
+Filename: ./debs/tweaks/com.unlimapps.uaupdatetools_1.0r-102_iphoneos-arm.deb
+Size: 863628
+MD5sum: 6d7f076eb541e5bbec3e3629f152d16d
+SHA1: 058a98b3da7197c1c767c71a6db420b392a460d2
+SHA256: 8a251edeb458547686060caa4545800061b5d6d465b34982c1e76580474180c1
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.appadmin/index.json
+
+Package: com.tweak.swipeselectionpro
+Depends: firmware(>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
+Conflicts: com.iky1e.swipeselection
+Name: SwipeSelection Pro
+Version: 1.0.3-1
+Architecture: iphoneos-arm
+Section: Tweaks
+Description: Vuốt trên bàn phím để di chuyển con trỏ và chọn văn bản.
+Maintainer: thuan_vn
+Author: iKy1e (Kyle Howells)
+Depiction: https://itweaks.xyz/depictions/com.tweak.swipeselectionpro/index.html
+Filename: ./debs/tweaks/com.tweak.swipeselectionpro_1.0.3-1.deb
+Size: 44786
+MD5sum: 29766200e7d23c5b87a46scribblefaddc7ce9be
+SHA1: f6b9f1928047fea10e63c25471feefa781cffd1a
+SHA256: 0d5d3962ec7e4e541c656f3187fa6bf6a344901ea1c2acfd8caa6bd10e8b18ee
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.swipeselectionpro/index.json
+
+Package: com.tweak.homelist
+Name: HomeList
+Version: 2.0
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Conflicts: com.blakeboxberger.homelist
+Architecture: iphoneos-arm
+Section: Tweaks
+Description: An alphabetical, list-based app launcher! — Supports iOS 11 and 12.
+Author: Blake Boxberger
+Maintainer: Blake Boxberger
+Depiction: https://itweaks.xyz/depictions/com.tweak.homelist/index.html
+Filename: ./debs/tweaks/com.tweak.homelist_2.0_iphoneos-arm.deb
+Size: 120090
+MD5sum: 84bf2a815c32495334c7f82e783c0060
+SHA1: 3309c12a6f83ceac3700904006e90e5bcb63394c
+SHA256: bbb82df33206df9b9cc94cabd1598dbc5aeddf4040144f74624b6aca63d9b448
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.homelist/index.json
+
+Package: com.tweak.scribble
+Name: Scribble
+Version: 1.0.3-1
+Architecture: iphoneos-arm
+Section: Tweaks
+Description: vẽ lên màn hình để mở khóa.ios 11-12.
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, me.nepeta.libcolorpicker, ws.hbang.common (>= 1.11)
+Author: Boo
+Maintainer: @BooDev
+Filename: ./debs/tweaks/com.tweak.scribble_1.0.3-1.deb
+Size: 159054
+MD5sum: 8c86aaed1d4e7abdc421f8a0cbba772f
+SHA1: e7ee168cdd3ba9b18835da1104782f95613c5c4f
+SHA256: dbc5e629078a3a8918fd606d5fd476e326e0a6e821ba98ffb8051240d05fe4eb
+Depiction: https://itweaks.xyz/depictions/com.tweak.scribble/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.scribble/index.json
+
+Package: com.vietnamese.sileo
+Name: Vi-sileo
+Version: 1.0
+Architecture: iphoneos-arm
+Section: Localization
+Description: ngôn ngữ tiếng việt cho sileo.
+Author: thuan_vn <thuanvodka@gmail.com>
+Maintainer: thuan_vn <thuanvodka@gmail.com>
+Filename: ./debs/tweaks/com.vietnamese.sileo.deb
+Size: 6336
+MD5sum: ac658c1e3f5b71cf98dc6afd833da4a9
+SHA1: 95ff10b9f8e89049c2e0801900bfd7044f9578d3
+SHA256: b35454197e8fb379c2bc7a07df9ba42baa5abf9a231b2db5e10c81a405ce8aeb
+Depiction: https://itweaks.xyz/depictions/com.vietnamese.sileo/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.vietnamese.sileo/index.json
+
+Package: com.adamseiter.animationsbefast
+Name: AnimationsBeFast
+Author: Adam Seiter
+Description: Speeds up animations
+Depends: mobilesubstrate
+Maintainer: Adam Seiter
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.4.7
+Installed-Size: 324
+Filename: ./debs/tweaks/com.adamseiter.animationsbefast_1.4.7_iphoneos-arm.deb
+Size: 28828
+MD5sum: f59cb508957fa726d745a861234a8571
+SHA1: ada46b21aeb2472216cb4c3ebec170e72b7b6672
+SHA256: db070b737f6f57bbd08aea5cb7abf890a992a4b94c941ce7682b164b4f1a3a8e
+Depiction: https://itweaks.xyz/depictions/com.tweak.animationsbefast/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.animationsbefast/index.json
+
+Package: com.theme.bohemic
+Name: Bohemic
+Version: 1.0.1
+Section: Themes
+Architecture: iphoneos-arm
+Description: Theme cool for iOS 8-12.
+Author: TheTimeLoop
+Maintainer: TheTimeLoop
+Icon: file:///Library/Icon.png
+Filename: ./debs/theme/com.theme.bohemic_1.0.1_iphoneos-arm.deb
+Size: 6186392
+MD5sum: df2715523410b86a5bddddb0041e77ee
+SHA1: 7d4f91f4d0749bb68787abf85bea0434621b74a2
+SHA256: 3ad7fa712462977007927d93fca9575288397fa68fbf47e23325901714df2554
+Depiction: https://itweaks.xyz/depictions/com.theme.bohemic/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.bohemic/index.json
+
+Package: com.tweak.youtubetools
+Name: YouTube Tools
+Version: 4.0
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Section: Tweaks
+Description: Essential toolbox for YouTube app.
+Author: Justin Petkovic <justinpetkovic1994@outlook.com>
+Maintainer: Justin Petkovic <justinpetkovic1994@outlook.com>
+Filename: ./debs/tweaks/com.tweak.youtubetools_4.0_iphoneos-arm.deb
+Size: 21428
+MD5sum: 8983a171f4f83123b94183594f36e320
+SHA1: 47b1f34a4de46f0ab7d849d0e205c8340326c096
+SHA256: 93686bac98a13e2a0bb23acea2755df2b0e89e392744d0643fee22c3dde0cce4
+Depiction: https://itweaks.xyz/depictions/com.tweak.youtubetools/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.youtubetools/index.json
+
+Package: xyz.skitty.sixls
+Name: Six (LS)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Architecture: iphoneos-arm
+Description: iOS 6 Style Lock Screen!
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.sixls.png
+Maintainer: Skitty
+Author: Skitty
+Section: Tweaks
+Version: 1.0.4-1
+Installed-Size: 2220
+Filename: ./debs/tweaks/xyz.skitty.sixls_1.0.4-1_iphoneos-arm.deb
+Size: 1431412
+MD5sum: 06d3a6022a79a37e67d03dbdde9909ba
+SHA1: afa8d620c709300d9e72972d3445bf4b5a7f8313
+SHA256: 8f81064aab5d76f49a2909031808831c48411c60f0707d8362480c46dcde0452
+Depiction: https://itweaks.xyz/depictions/com.tweak.sixls/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.sixls/index.json
+
+Package: com.idevicehacked.miscsettings
+Name: MiscSettings
+Depends: mobilesubstrate, preferenceloader, com.spark.libsparkapplist
+Architecture: iphoneos-arm
+Description: So far has 60+ Miscellaneous toggles!
+Maintainer: Lucifers Circle <luciferscircle@gmail.com>
+Author: Lucifers Circle <luciferscircle@gmail.com>
+Section: Tweaks
+Version: 2.4.2
+Filename: ./debs/tweaks/com.idevicehacked.miscsettings_2.4.2_iphoneos-arm.deb
+Size: 63086
+MD5sum: 1e923299cbdb74ca7551076aaf6274c0
+SHA1: ae810a0396e98cdc2baabfec50a9b336c405c5b3
+SHA256: 9e9d8697446c076aafc609cad0beba76efb35ff078f8c3fad515d79a5e92b2a3
+Depiction: https://itweaks.xyz/depictions/com.tweak.miscsettings/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.miscsettings/index.json
+
+Package: com.cpdigitaldarkroom.gridiculous
+Name: gridiculous
+Depends: mobilesubstrate, com.chpwn.iconsupport
+Architecture: iphoneos-arm
+Description: Icons Anywhere? That's Gridiculous
+Maintainer: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
+Author: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
+Section: Tweaks
+Version: 0.2~beta1
+Installed-Size: 136
+Filename: ./debs/tweaks/com.cpdigitaldarkroom.gridiculous_0.2_beta1_iphoneos-arm.deb
+Size: 10076
+MD5sum: f86a180749f268af973120dcc7568e8b
+SHA1: ad570556be0203e325922ab671ee44bbbcd24f97
+SHA256: 270732b8c14b6db71f52de26d96f99bdce7d2da2434aaac6c4bcafde2204fd69
+Depiction: https://itweaks.xyz/depictions/com.tweak.gridiculous/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.gridiculous/index.json
+
+Package: com.tweak.ezcc
+Name: EzCC
+Version: 1.2.4
+Architecture: iphoneos-arm
+Description: EzCC Module iOS 11!thêm toggle Control Center
+Section: Tweaks
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.m4cs.ezccbeta
+Author: Auxilium Team
+Maintainer: thuan_vn
+Filename: ./debs/tweaks/com.tweak.ezcc_1.2.4.deb
+Size: 410750
+MD5sum: 156e3db5bf4de5556564158c18cfdc30
+SHA1: 37a15233a07043d8b9bd261047c6ad4ec5d1e676
+SHA256: 676a2cc733a1eca19b44a3738df7f94f502fadd1a47b3888398451fd4db053a3
+Depiction: https://itweaks.xyz/depictions/com.tweak.ezcc/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.ezcc/index.json
+
+Package: com.tweak.swipeuptokillx
+Name: SwipeUptoKillX
+Version: 1.0.0
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: vuốt lên để đóng app trên ipx ios 11.
+Author: CydiaGeek <lucaluca86@aol.com>
+Maintainer: CydiaGeek <lucaluca86@aol.com>
+Filename: ./debs/tweaks/com.tweak.swipeuptokillx_1.0.0.deb
+Size: 6756
+MD5sum: b9936fc064ad6e0f00d6516e6b1614e9
+SHA1: 0ff506eb5d421bb85e5434fbf2257dca3b90fb54
+SHA256: 896a487e9c5150efc45eff3829183fca2d4c8abbf56d5672f01dbe58a7366b5a
+Depiction: https://itweaks.xyz/depictions/com.tweak.swipeuptokillx/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.swipeuptokillx/index.json
+
+Package: com.tweak.haystack
+Name: Haystack
+Version: 1.6.3
+Architecture: iphoneos-arm
+Description: Control center ios 10 for ios 11 - 12.
+Depends: mobilesubstrate, preferenceloader
+Replaces: com.laughingquoll.haystack.pagepage.one
+Installed-Size: 1244
+Section: Tweaks
+Author: LaughingQuoll
+Maintainer: LaughingQuoll
+Filename: ./debs/tweaks/com.tweak.haystack_1.6.3_iphoneos-arm.deb
+Size: 230480
+MD5sum: 3395159f669b8cce360fa0ca251fcdb4
+SHA1: 6b4a0874bb66192a33fc53b74daaf1adae2b4858
+SHA256: 4f4ab26dd22c112e171f6039850f72b126e7e83c9aebbff63ed7037a410cda83
+Depiction: https://itweaks.xyz/depictions/com.tweak.haystack/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.haystack/index.json
+
+Package: com.tigisoftware.filza64bit
+Name: Filza File Manager 64-bit
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza
+Architecture: iphoneos-arm
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
+Maintainer: TIGI Software
+Author: TIGI Software
+Section: Utilities
+Version: 3.7.0-18
+Installed-Size: 20132
+Filename: ./debs/tweaks/com.tigisoftware.filza64bit_3.7.0-18_iphoneos-arm.deb
+Size: 8271118
+MD5sum: b66db1053510f37c34996de60f26fd8f
+SHA1: 027fc88d60e01792241510a1ebd8d5d70ba2f841
+SHA256: f026dbf10ad5038e99db31684c814e869dfe9493628f9e50f2fef8a5e5821e9c
+Depiction: https://itweaks.xyz/depictions/com.tigisoftware.filza64bit/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tigisoftware.filza64bit/index.json
+
+Package: com.tweak.chromahomebarx
+Name: ChromaHomeBarX
+Depends: firmware(>= 11.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
+Version: 0.4
+Architecture: iphoneos-arm
+Description: Razer Chroma insprird HomeBar coloring tweak for iPhone X, also works with LittleX.
+Section: Tweaks
+Tag: purpose::extension, compatible::ios11, compatible::ios12
+Icon: file:///Library/PreferenceBundles/ChromaHomeBarX.bundle/chroma@2x.png
+Maintainer: thuan
+Author: Afnan Ahmad <afnanahmaddd@gmail.com>
+Filename: ./debs/tweaks/com.tweak.chromahomebarx_0.4.deb
+Size: 100642
+MD5sum: 53aaf9b40f6363a20b2624e24226ae33
+SHA1: bc03a4c1d1c75b724c8f2b15f44abb3725c56d4f
+SHA256: 5d375d1a2b67444f0d2d5dfb3ed5e11746fe74406d087a8bbbee6bd8744e6b3f
+Depiction: https://itweaks.xyz/depictions/com.tweak.chromahomebarx/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.chromahomebarx/index.json
+
+Package: com.tweak.bazzi
+Name: Bazzi
+Version: 2.0.6
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, com.rpetrich.rocketbootstrap (>= 1.0.7~beta1)
+Conflicts: com.neinzedd9.percentagebatteryx, com.neinzedd9.percentagecirclex
+Replaces: com.neinzedd9.percentagebatteryx, com.neinzedd9.percentagecirclex
+Description: The ultimate iPhone X battery icon customizer
+Author: Blake Boxberger
+Maintainer: Blake
+Filename: ./debs/tweaks/com.tweak.bazzi_2.0.6.deb
+Size: 56628
+MD5sum: 4b37ed592f0334c47d1b381b14679938
+SHA1: 74b1ab130138c1b061e05973ac87fcc3bb596691
+SHA256: b1da8f309c230deaa7aee81ee7843b793c6e16c49a1fd9d8f8a4c5dcff3ff9f6
+Depiction: https://itweaks.xyz/depictions/com.tweak.bazzi/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.bazzi/index.json
+
+Package: com.tweak.localiapstore
+Name: LocalIAPStore
+Version: 1.4-5b
+Section: Tweaks
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Description: h@ck In-App purchases
+Author: Pangu
+Maintainer: Thuan_vn
+Filename: ./debs/tweaks/com.tweak.localiapstore_1.4-5b.deb
+Size: 70680
+MD5sum: 1a56deb8f16d4efeb76ad5af0509401e
+SHA1: 03653756920743494ef5e0352a2448bb8ebf98db
+SHA256: 56b304a0c3a8581e3a9a3128d05ad046a3497f088348830f201d0bf81ca4f66f
+Depiction: https://itweaks.xyz/depictions/com.tweak.localiapstore/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.localiapstore/index.json
+
+Package: com.jailbreak365.safeccmodules
+Name: CCModules
+Section: Addons (ControlCenter)
+Version: 1.4-3
+Architecture: iphoneos-arm
+Description: Control center modules for iOS 11/12. New in v1.4-3: Added SBReload, LDRestart, Sileo, and Zebra modules.
+dev: jailbreak365
+Author: jailbreak365 <jailbreak365@mail.com>
+Maintainer: jailbreak365 <jailbreak365@mail.com>
+Filename: ./debs/tweaks/com.jailbreak365.safeccmodules_1.4-3_iphoneos-arm.deb
+Size: 1118224
+MD5sum: 0ae2ba5338b12e7c1a63706c446789ab
+SHA1: 21721faa993a968117a8d6300ecb0515bb1ddaaa
+SHA256: cf8a5d34de383608e063f3ef486a4923c8f792d8fb1555e2be6e67f4e3fac525
+Depiction: https://itweaks.xyz/depictions/com.tweak.safeccmodules/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.safeccmodules/index.json
+
+Package: com.tweak.chargeanimations
+Name: ChargeAnimations
+Version: 2.1
+Architecture: iphoneos-arm
+Description: hieu ung khi cam sac
+Maintainer: c1d3r
+Author: c1d3r
+Depends: firmware (>= 5.0), mobilesubstrate, org.thebigboss.libcolorpicker, com.rpetrich.rocketbootstrap
+Section: Tweaks
+Filename: ./debs/tweaks/com.tweak.chargeanimations_2.1.deb
+Size: 10296674
+MD5sum: 486f36f3948f9a9acade6b63fcfe7911
+SHA1: 72a4776b32c6a6287ad5b77b53827eee483d501a
+SHA256: d0a25dd99212c5294ab089e16577e14424349a201e3256f08333d8f3c4bc38c0
+Depiction: https://itweaks.xyz/depictions/com.tweak.chargeanimations/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.chargeanimations/index.json
+
+Package: com.tweak.springtomize
+Name: Springtomize 4
+Version: 4.0.8
+Architecture: iphoneos-arm
+Description: Customize your device like never before
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
+Replaces: com.springtomize.st4
+Installed-Size: 3368
+Section: Tweaks
+Author: sharedRoutine
+Maintainer: sharedRoutine
+Filename: ./debs/tweaks/com.tweak.springtomize_4.0.8_iphoneos-arm.deb
+Size: 914874
+MD5sum: 511efdb6447605a9aa5a74e8376ea80b
+SHA1: 0cf3853e7ff9c97693585864896f7d2997e16559
+SHA256: a8e3d54204c95f766162696d2ffda3b1ce0a4fc3489c3da5cbb8b693990cf909
+Depiction: https://itweaks.xyz/depictions/com.tweak.springtomize/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.springtomize/index.json
+
+Package: com.tweak.noctisxi
+Name: NoctisXI
+Version: 1.7.6
+Architecture: iphoneos-arm
+Description: Dark mode iOS 11
+Depends: mobilesubstrate, preferenceloader, me.nepeta.libcolorpicker, com.laughingquoll.prefixui, com.spark.libsparkapplist, com.opa334.ccsupport, com.rpetrich.rocketbootstrap
+Conflicts: com.laughingquoll.noctis12, com.tweak.noctis12
+Installed-Size: 868
+Section: Tweaks
+Author: LaughingQuoll <me@laughingquoll.net>
+Maintainer: LaughingQuoll
+Filename: ./debs/tweaks/com.tweak.noctisxi_1.7.6_iphoneos-arm.deb
+Size: 205870
+MD5sum: bb8a51b96ffeacea867e4f3c9e3af76d
+SHA1: 89151625273a9317004631ad555488c2f671431c
+SHA256: 58a0502bc95542fbd49f97585d9dacc49b5ae00233440f92fb9f3795b18e3afc
+Depiction: https://itweaks.xyz/depictions/com.tweak.noctisxi/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.noctisxi/index.json
+
+Package: com.tweak.noctis12
+Name: Noctis12
+Version: 1.8.6.2
+Description: Dark Mode for iOS 12
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, me.nepeta.libcolorpicker, com.laughingquoll.prefixui, com.spark.libsparkapplist, com.opa334.ccsupport, com.rpetrich.rocketbootstrap
+Conflicts: com.laughingquoll.noctisxi, com.tweak.noctisxi
+Architecture: iphoneos-arm
+Author: LaughingQuoll
+Maintainer: LaughingQuoll
+Filename: ./debs/tweaks/com.tweak.noctis12_1.8.6.2_iphoneos-arm.deb
+Size: 133280
+MD5sum: 608774951285da80e56870f3fe234f78
+SHA1: 8373364edb60bd847514599d397e57b4a1994e5d
+SHA256: 0616dffeeeafdc406bacd4ac8c05b47fc258645448e08d8300c3d9b4ae9c18df
+Depiction: https://itweaks.xyz/depictions/com.tweak.noctis12/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.noctis12/index.json
+
+Package: com.junesiphone.xeninfo
+Name: XenInfo
+Depends: mobilesubstrate, firmware (>= 9.0)
+Conflicts: org.bigboss.datameter, cydia.kiiimo.org.datameter, com.repo.xarold.com.datameter, re.rejail.datameter, org.coolstar.ventana-modern, com.repo.xarold.com.ventana, cydia.kiiimo.org.ventana
+Architecture: iphoneos-arm
+Description: Music, Weather, and battery info for XenHTML
+Maintainer: Junes <junesgraphics@gmail.com>
+Author: JunesIphone & Matchstic <junesgraphics@gmail.com>
+Section: Addons (Tweaks)
+Depiction: http://www.junesiphone.com/supersecret/depiction.php?iframe=depiction/xeninfo
+Version: 2.2.5
+Installed-Size: 1056
+Filename: ./debs/Utilities/com.junesiphone.xeninfo_2.2.5.deb
+Size: 149800
+MD5sum: d67f1b5c6c2826b35e697eeb90ebc10b
+SHA1: c9abba898f5bfc2b130955910cd931d77b04a5e5
+SHA256: 2edeebbe7d96ce4ff484eb27a5ebc15f0b6a2a32867e5f0697add56669233e7f
+
+Package: com.tweak.nomoredisabled
+Name: NoMoreDisabled
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 10.0)
+Version: 1.0.2
+Architecture: iphoneos-arm
+Description: Ngăn chặn bị vô hiệu hóa khi nhập mật khẩu sai nhiều lần.
+Conflicts: com.cydiageek.nomoredisabled
+Maintainer: CydiaGeek
+Author: CydiaGeek <lucaluca86@aol.com>
+Tag: purpose::extension, compatible::ios10, compatible::ios11, compatible::ios12
+Filename: ./debs/tweaks/com.tweak.nomoredisabled_1.0.2.deb
+Size: 7716
+MD5sum: 73f65a8d4511b44919518c7d67fb7067
+SHA1: 752cb7219c33bc5bbc9c8b7c9a287c222bd6bd6a
+SHA256: 9899b5c8e2b32270d25334cefb3104e120b7a46ad53a4f733cb1661a5205abde
+Depiction: https://itweaks.xyz/depictions/com.tweak.nomoredisabled/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.nomoredisabled/index.json
+
+Package: com.widget.centyfish
+Name: Centyfish
+Version: 1.3
+Architecture: iphoneos-arm
+Depends: com.matchstic.xenhtml
+Description: Centered alternative to Jellyfish
+Conflicts: com.furoso.centyfish
+Maintainer: Furoso
+Author: Furoso
+Section: Widgets
+Filename: ./debs/widget/com.widget.centyfish_1.3.deb
+Size: 348448
+MD5sum: c624182678929a58b8cfd93f33ed324b
+SHA1: 1f1ec35c923b75ab0e3ef1d5a4339be48ea64761
+SHA256: dfe8a2b1c40d351970eccdc31f74226987d53ded1b226f39fb35e668c08051c3
+Depiction: https://itweaks.xyz/depictions/com.widget.centyfish/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.widget.centyfish/index.json
+
+Package: com.tweak.cydown
+Name: CyDown
+Version: 6.9.7
+Architecture: iphoneos-arm
+Description: Cydia Download Manager & Extra Features!
+Section: Tweaks
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+Author: julioverne
+Maintainer: julioverne
+Filename: ./debs/tweaks/com.tweak.cydown_6.9.7.deb
+Size: 1083774
+MD5sum: d9ff4b5eb01cfdc39186f85eb0d94dd5
+SHA1: 7bf4d015cc7a00d3542cf2146e60da55e53dcf6b
+SHA256: 1380913e774128a9290550af09e764454642617209c63b471f71e9c5311a01e8
+Depiction: https://itweaks.xyz/depictions/com.tweak.cydown/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.cydown/index.json
+
+Package: com.tweak.cydown
+Name: CyDown
+Version: 7.0.1
+Section: Tweaks
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Description: Cydia Download Manager & Extra Features
+Author: julioverne <julioverne@me.com>
+Maintainer: julioverne
+Filename: ./debs/tweaks/com.tweak.cydown_7.0.1_iphoneos-arm.deb
+Size: 2090594
+MD5sum: 51a46f0af2f9b72bc027b791d2404aec
+SHA1: 349eedbb56c66e74047d80d222b529c4ac6ce45e
+SHA256: 6fa46ed5d2a79bbb249596119ce2c55b02cc3e80920fbd575894000ea223cde1
+Depiction: https://itweaks.xyz/depictions/com.tweak.cydown/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.cydown/index.json
+
+Package: com.rpgfarm.a-font
+Name: A-Font
+Depends: mobilesubstrate, applist (>= 1.5.15~beta1)
+Architecture: iphoneos-arm
+Description: Change your font!
+Section: Tweaks
+Version: 1.5.6
+Installed-Size: 2364
+Author: Baw Appie <pp121324@gmail.com>
+Maintainer: Baw Appie <pp121324@gmail.com>
+Filename: ./debs/tweaks/com.rpgfarm.a-font_1.5.6.deb
+Size: 491908
+MD5sum: 11e81740695d806d4124384a9e775143
+SHA1: 95d6113e79bf29ea90c4bc6cc643b553e8d057f5
+SHA256: d91ad85c2be4c6876667618eaa231de752397967054b62c6d29dd6d97fbb8f87
+Depiction: https://itweaks.xyz/depictions/com.rpgfarm.a-font/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.rpgfarm.a-font/index.json
+
+Package: com.tweak.shylabels
+Name: Shy Labels
+Version: 1.1.1
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Description: Hide app labels when not scrolling
+Conflicts: com.noisyflake.shylabels
+Author: NoisyFlake
+Maintainer: NoisyFlake
+Filename: ./debs/tweaks/com.tweak.shylabels_1.1.1.deb
+Size: 31268
+MD5sum: 03100acca36102a93467db8c24c0c36a
+SHA1: 8e4f67737ae444aab665e0e3c85b193eafb754a6
+SHA256: 072c504997529b87e3666560068f5c85ea6255a5c652e7d3495001e4fdd802c5
+Depiction: https://itweaks.xyz/depictions/com.tweak.shylabels/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.shylabels/index.json
+
+Package: com.tweak.autounlockx
+Name: AutoUnlockX
+Version: 1.0.6
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Conflicts: com.spark.autounlockx
+Description: Unless there are notifications, the device will automatically unlock when valid Face ID is detected
+Section: Tweaks
+Author: Spark
+Maintainer: Spark
+Filename: ./debs/tweaks/com.tweak.autounlockx_1.0.6_iphoneos-arm.deb
+Size: 75774
+MD5sum: 54318060bfadcb55ba0bc05a67ad04da
+SHA1: 96fdda68e6c089feae7567e990b106bcea1d7301
+SHA256: a648a0e7d1a7512ebe2f8dbe35af04939935d1b7d71912616f45a392c6c697db
+Depiction: https://itweaks.xyz/depictions/com.tweak.autounlockx/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.autounlockx/index.json
+
+Package: com.theme.ae-boreal
+Name: AE-Boreal
+Version: 1.0
+Architecture: iphoneos-arm
+Section: Themes (AE-mask)
+Description: AE phong cach.
+Maintainer: loismarcin
+Author: loismarcin
+Filename: ./debs/theme/com.theme.AE-Boreal.deb
+Size: 101858
+MD5sum: 0e8095a6ee8e71a21aff1549bc71711f
+SHA1: fd7b46785371ce8ef2dfb8bd25aeec6565fab565
+SHA256: 265181960ca6ba1bf65c4eeea37a4580a1b697ed5bd70426a0756a04e6e40a7a
+Depiction: https://itweaks.xyz/depictions/com.theme.ae-boreal/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.ae-boreal/index.json
+
+Package: com.theme.vuonggach
+Name: VuongGach
+Version: 1.0
+Architecture: iphoneos-arm
+Section: Themes (AE-mask)
+Description: AE-mask phong cach.
+Maintainer: thuan
+Author: Noname
+Filename: ./debs/theme/com.theme.vuonggach.deb
+Size: 31074
+MD5sum: 53c2626e4e0fc338f14744f7f4191c93
+SHA1: 91e23ffc73c46b1276fe87bce06be494e28cecce
+SHA256: f8ff7bcce52c609df15c103961d9f719e936282091bd00d741d1ee5e42e9108d
+Depiction: https://itweaks.xyz/depictions/com.theme.vuonggach/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.vuonggach/index.json
+
+Package: com.theme.ringsmasker-square
+Name: Ringsmasker-Square
+Version: 1.0
+Architecture: iphoneos-arm
+Section: Themes (AE-mask)
+Description: AE-mask phong cach.
+Maintainer: thuan
+Author: thazsar
+Filename: ./debs/theme/com.theme.ringsmasker-square.deb
+Size: 40910
+MD5sum: 613d086f16506d183f766c0a61b47516
+SHA1: b3ee69ad4779fc3cb6281fadd80a386771581a29
+SHA256: 8cc03784e2864f2dea06888dcfc3bd8c53dc059dcc5cf24b3445dacb62bf7b67
+Depiction: https://itweaks.xyz/depictions/com.theme.ringsmasker-square/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.ringsmasker-square/index.json
+
+Package: com.theme.ringsmasker-circle
+Name: Ringsmasker-Circle
+Version: 1.0
+Architecture: iphoneos-arm
+Section: Themes (AE-mask)
+Description: AE-mask phong cach.
+Maintainer: thuan
+Author: thazsar
+Filename: ./debs/theme/com.theme.ringsmasker-circle.deb
+Size: 52388
+MD5sum: 4a4c2341056bc5c944a0f4281c652a78
+SHA1: 568dabf02f1675236b12c6f3a76fe173b6d84a0c
+SHA256: beb241802a60e77e803bd916dab93a0ac2b1232ced89a253c14d2236ade383a6
+Depiction: https://itweaks.xyz/depictions/com.theme.ringsmasker-circle/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.ringsmasker-circle/index.json
+
+Package: com.theme.roundglass
+Name: Roundglass
+Version: 1.0
+Architecture: iphoneos-arm
+Section: Themes (AE-mask)
+Description: AE-mask phong cach.
+Maintainer: thuan
+Author: AZon3.1
+Filename: ./debs/theme/com.theme.roundglass.deb
+Size: 81334
+MD5sum: 0325b54852a8621235f5ba7ab0611f5e
+SHA1: e3b1fa3d28bcbe3aa260be57117587446cb01243
+SHA256: 04154fd211d136e0b68deb6301d72f66cb083797f78c72c455cdd0f5895c2c4e
+Depiction: https://itweaks.xyz/depictions/com.theme.roundglass/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.roundglass/index.json
+
+Author: ichitaso & Leo_Dec
+Maintainer: thuan
+Name: AppleRings & iPhoneX Respring Themes
+Package: com.theme.appleringsiphonex
+Depends: firmware (>= 11.0)
+Section: Themes (Respring)
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Replace the AppleRings & iPhoneX Respring wheel for iOS.
+Tag: compatible::ios11, ios12
+Filename: ./debs/theme/com.theme.appleringsiphonex_1.0.deb
+Size: 2082390
+MD5sum: c920d9c0c8d29c701c09ed01115263a2
+SHA1: e5f3df80e20e8681768e96b6f91ffb596506dd5e
+SHA256: 96cc1e4416a79b38ec5bed04f591470ce046f21d8f229253e66d78b16186c958
+Depiction: https://itweaks.xyz/depictions/com.theme.appleringsiphonex/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.appleringsiphonex/index.json
+
+Architecture: iphoneos-arm
+Package: me.jjolano.shadow
+Name: Shadow
+Version: 2.0.20
+Icon: https://ios.jjolano.me/assets/me.jjolano.shadow/icon.png
+Description: A lightweight general jailbreak detection bypass.
+Section: Tweaks
+Depends: firmware (>=8.0), mobilesubstrate, ws.hbang.common, applist, preferenceloader
+Author: jjolano <jjolano@me.com>
+Maintainer: jjolano <jjolano@me.com>
+Filename: ./debs/tweaks/me.jjolano.shadow_2.0.20_iphoneos-arm.deb
+Size: 250054
+MD5sum: 05ae8facd56cc46b72837c4e95145874
+SHA1: 390069d1be05fec40d119f554faf26655688df92
+SHA256: 9235941ea8fbe40adde9a172701e9a381b65111e13291147f070698477da6d25
+Depiction: https://itweaks.xyz/depictions/com.tweak.shadow/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.shadow/index.json
+
+Package: com.tweak.powerselector11
+Name: PowerSelector (iOS 11 & 12)
+Pre-Depends: firmware (>= 11.0)
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.ichitaso.powerselector, com.dpkgdan.powertap, com.weesstt.powerdownoptions, com.subdiox.powertap2, com.rustybalboa.powertapxi, com.ichitaso.powerselector11
+Replaces: com.ichitaso.powerselector11
+Section: Utilities
+Version: 1.2.1
+Architecture: iphoneos-arm
+Description: The power supply relation of a device is operated.
+dev: ichitaso
+Tag: purpose::extension, compatible::ios11, compatible::ios12
+Icon: file:///Library/PreferenceBundles/PowerSelectorSettings.bundle/icon@2x.png
+Author: ichitaso <willfeeltips@gmail.com>
+Maintainer: ichitaso
+Filename: ./debs/tweaks/com.tweak.powerselector11_1.2.1_iphoneos-arm.deb
+Size: 350450
+MD5sum: ebc2fcbae7f817740d29d7e580b00d14
+SHA1: 79506c61cd9d6b3a3ba2b6d0b05d85aa676ced3c
+SHA256: fb20501d129f9f08f52e9633c881a5fc068fc9b16a3164fbd68bed0d8acfd124
+Depiction: https://itweaks.xyz/depictions/com.tweak.powerselector11/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.powerselector11/index.json
+
+Package: xyz.willy.zebra
+Name: Zebra (BETA)
+Architecture: iphoneos-arm
+Depends: dpkg, uikittools
+Description: A Useful Package Manager
+Maintainer: Wilson Styres <wilson@styres.me>
+Author: Wilson Styres <wilson@styres.me>
+Section: Packaging
+Tag: purpose::x
+Version: 1.0~beta22-1
+Installed-Size: 16708
+Filename: ./debs/package/xyz.willy.zebra_1.0_beta22-1_iphoneos-arm.deb
+Size: 6490764
+MD5sum: 1ee5583dacecda69977d2c9ce6f0a4ff
+SHA1: e2ff31cf13a487e5f02090e9a16e34bb88a46eff
+SHA256: 6bad457259ab1e7a8a17a8a399a5e1a120f19c60294552180910414f588d1263
+Depiction: https://itweaks.xyz/depictions/xyz.willy.zebra/index.html
+SileoDepiction: https://itweaks.xyz/depictions/xyz.willy.zebra/index.json
+
+Package: com.tweak.xb-ccmodules
+Name: XB-CCModules
+Depends: firmware (>= 11), mobilesubstrate, com.opa334.ccsupport, preferenceloader, org.thebigboss.libcolorpicker
+Version: 2.1
+Architecture: iphoneos-arm
+Description: CC Connectivity replacement with settings and more!
+Section: Tweaks
+Tag: purpose::extension, compatible::ios11, compatible::ios12
+Icon: file:///Library/PreferenceBundles/XBCCModules.bundle/XBCCModules@2x.png
+Conflicts: com.oly.xb-ccmodules
+Maintainer: thuan
+Author: Olivier Crespo <ocbarrio@yahoo.es>
+Filename: ./debs/tweaks/com.tweak.xb-ccmodules_2.1.deb
+Size: 1039078
+MD5sum: 61b98fb5e035416bf679827e60ded7c4
+SHA1: bbd8b480b3528c0634e6793ecd921e108bf9ecb3
+SHA256: 83f60486121e4c7f5ef962458e0600247fbb45d4280a7eb2b64973feaba0e0ed
+Depiction: https://itweaks.xyz/depictions/com.tweak.xb-ccmodules/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.xb-ccmodules/index.json
+
+Package: com.midnightchips.bettersettings
+Name: BetterSettings
+Depends: mobilesubstrate, com.muirey03.libimagepicker, com.creaturesurvive.libcscolorpicker, com.creaturecoding.libcspreferences, org.thebigboss.libcolorpicker
+Architecture: iphoneos-arm
+Description: Settings your way
+Maintainer: midnightchips
+Author: midnightchips
+Section: Tweaks
+Icon: https://midnightchips.me/packages/bettersettings/PM.png
+Version: 0.1.3
+Filename: ./debs/tweaks/com.midnightchips.bettersettings_0.1.3.deb
+Size: 1260050
+MD5sum: 48e23f2ae3bbc543392bc7f70eb264aa
+SHA1: db8501dcf09b0fcfe849feecb10eeca13adf43c7
+SHA256: 31750f5dceda4a76bec673026674f573a23a47eaf52233556c32d460040d317f
+Depiction: https://itweaks.xyz/depictions/com.midnightchips.bettersettings/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.midnightchips.bettersettings/index.json
+
+Package: com.mumiantech.classickeyboardx
+Name: ClassicKeyboardX
+Version: 0.2-1
+Section: Tweaks
+Depends: firmware (>= 11.0), mobilesubstrate
+Architecture: iphoneos-arm
+Description: Mang bàn phím cổ điển lên iPhone X
+Maintainer: iamalive2008
+Author: iamalive2008
+Filename: ./debs/tweaks/com.mumiantech.classickeyboardx_0.2-1.deb
+Size: 28362
+MD5sum: 525efa379ee247823a0ede3e9b5de609
+SHA1: 757f0408387d2ed9e314f4a7bf1a405ab7a82b18
+SHA256: 382b7faa6dd0514bc44d01c7b0138788f03b80e134045bb107515cfb9ae470d1
+Depiction: https://itweaks.xyz/depictions/com.mumiantech.classickeyboardx/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.mumiantech.classickeyboardx/index.json
+
+Package: com.tweak.jellyfish
+Name: Jellyfish
+Version: 1.2.1
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Conflicts: applebetas.ios.tweak.time11, com.junesiphone.lockpluspro
+Architecture: iphoneos-arm
+Section: Tweaks
+Description: Modernize your Lock screen.
+Author: Justin Proulx and AppleBetas
+Maintainer: Justin Proulx and AppleBetas
+Filename: ./debs/tweaks/com.tweak.jellyfish_1.2.1_iphoneos-arm.deb
+Size: 188844
+MD5sum: 2dc2920d15daa39ea9a71a67f2dc40c1
+SHA1: 9663883689fd147b90ee981b9d405c49c3c9a462
+SHA256: 2c8ca82ba235b584239a3272f203dd849540e7fc93e34314c645daa189d49bb7
+Depiction: https://itweaks.xyz/depictions/com.tweak.jellyfish/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.jellyfish/index.json
+
+Package: com.tweak.jellyfish
+Name: Jellyfish
+Version: 1.3.2
+Depends: mobilesubstrate,preferenceloader,firmware (>= 11.0)
+Conflicts: applebetas.ios.tweak.time11,com.junesiphone.lockpluspro
+Architecture: iphoneos-arm
+Section: Tweaks
+Description: Modernize your Lock screen
+Installed-Size: 728
+Author: Justin Proulx and AppleBetas
+Maintainer: Justin Proulx and Ayden Panhuyzen
+Filename: ./debs/tweaks/com.tweak.jellyfish_1.3.2_iphoneos-arm.deb
+Size: 125928
+MD5sum: 7580d011323849220aecf9519e90d3d0
+SHA1: f7c3de048d4bc9dc2c9946909e43c8549a70f65d
+SHA256: 784387bf8a7b957d36955068e8d6d314a76b7bebef96c53af1b103a42fce37ce
+Depiction: https://itweaks.xyz/depictions/com.tweak.jellyfish/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.jellyfish/index.json
+
+Package: com.theme.aveya
+Name: Aveya
+Version: 1.4
+Architecture: iphoneos-arm
+Section: Themes
+Description: Aveya is a flat and delicious theme for iOS.
+Author: thetimeloop
+Maintainer: thuan
+Filename: ./debs/theme/com.theme.aveya_1.4.deb
+Size: 1334512
+MD5sum: 589093c42021ad54dae33e3d56bdf9e4
+SHA1: 1272b68ba309da259b69681aa5a620c8a830cafe
+SHA256: 86f4c93e20e8c58ef4cdf9c248cc5d327a1b203007a4dff9ca451cfea34c681b
+Depiction: https://itweaks.xyz/depictions/com.theme.aveya/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.aveya/index.json
+
+Package: com.theme.bubblegum
+Name: Bubblegum
+Version: 1.0.1
+Architecture: iphoneos-arm
+Section: Themes
+Description: Beautiful handcrafted icons for your iOS device.
+Author: ItsCrx
+Maintainer: thuan
+Filename: ./debs/theme/com.theme.bubblegum_1.0.1.deb
+Size: 3979160
+MD5sum: 48a8b12b757eb2e277e760e18e9c2d22
+SHA1: d888fbeb328117d2e58b49a113c724b21df710b9
+SHA256: 6ab73ace13cc140ac16637056c34bbb8d3d980e221fc200b13cd513b934f3220
+Depiction: https://itweaks.xyz/depictions/com.theme.bubblegum/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.bubblegum/index.json
+
+Package: com.tweak.pikabu
+Name: Pikabu
+Version: 1.1.0
+Architecture: iphoneos-arm
+Description: thay doi thanh am luong dep mat hon.
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
+Section: Tweaks
+Conflicts: com.yourepo.tweakportal.pikabulite
+Maintainer: thuan
+Author: Jeffrey Chan <pikabu.jeffrey.chan@gmail.com>
+Filename: ./debs/tweaks/com.tweak.pikabu_1.1.0.deb
+Size: 247914
+MD5sum: 2b38342d092af99ec25da9adda1ebc06
+SHA1: efe3ef4c656a1ea71ac2bbce9cbdc645f0232ea0
+SHA256: c20c5fa16a2e0fb6704a7ca310566f6d185c8ee43c4cd80cff8e812988a1a0b8
+Depiction: https://itweaks.xyz/depictions/com.tweak.pikabu/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.pikabu/index.json
+
+Maintainer: LonestarX <me@lonestarx.net>
+Description: Shows where you touch the screen
+Package: com.lnx.showtouch
+Section: Tweaks
+Author: LonestarX <me@lonestarx.net>
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Installed-Size: 388
+Version: 1.0.3-1
+Architecture: iphoneos-arm
+Name: ShowTouch
+Filename: ./debs/tweaks/com.lnx.showtouch_1.0.3-1.deb
+Size: 87711
+MD5sum: 5e770a58d81aaffb94449c691edf6c27
+SHA1: bb54c503360f9802880bbb93e2f67329d4821c0d
+SHA256: 147c80cbd6be8a73dacb13f45b729fad8f0ffebc5cfc070954e55ec0f5d91c88
+Depiction: https://itweaks.xyz/depictions/com.lnx.showtouch/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.lnx.showtouch/index.json
+
+Package: com.samgisaninja.successionrestore
+Name: Succession
+Version: 1.2.4
+Architecture: iphoneos-arm
+Description: Restore without updating via rootfilesystem DMG
+Maintainer: Samg_is_a_Ninja
+Author: Samg_is_a_Ninja
+Section: Utilities
+Depends: firmware-sbin, rsync
+Icon:file:///Applications/SuccessionRestore.app/AppIcon60x60@3x.png
+Filename: ./debs/package/com.samgisaninja.successionrestore_1.2.4.deb
+Size: 916090
+MD5sum: c28ff3777edb6b33f76a2186109cb777
+SHA1: d1a5b4f34ebbc235c575074245f2f41c6902eba4
+SHA256: db4b3dbb5a617a8c9ac3ffbf3a2bfec0adf85e2af3f39bc6a53e7e11e7b2eac3
+Depiction: https://itweaks.xyz/depictions/com.samgisaninja.successionrestore/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.samgisaninja.successionrestore/index.json
+
+Package: com.tweak.batterynotch
+Name: BatteryNotch
+Version: 1.4.5
+Section: Tweaks
+Description: Represent battery around the notch X,XS,XSMax,XR.
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Architecture: iphoneos-arm
+Author: gilshahar7
+Maintainer: gilshahar7
+Filename: ./debs/package/com.tweak.batterynotch_1.4.5_iphoneos-arm.deb
+Size: 83426
+MD5sum: b8fcd37609761e7f3acea440f73bd35c
+SHA1: 4f51659c67fe34c744a16741dea0e0941684df29
+SHA256: 46b8c95d04009c450a004933675b79aed1287faeb20b277b0fc02e340f26dabe
+Depiction: https://itweaks.xyz/depictions/com.tweak.batterynotch/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.batterynotch/index.json
+
+Package: com.tweak.eclipsex
+Name: Eclipse X (iOS 11)
+Version: 5.1.9
+Architecture: iphoneos-arm
+Section: Tweaks
+Description: Darkmode for iOS 11.x-11.4.1
+Depends: mobilesubstrate, preferenceloader, applist, com.creaturesurvive.libcscolorpicker, firmware (>= 11.0), firmware (< 12.0)
+Conflicts: me.gmoran.eclipsex
+Author: Guillermo Morán (fr0st)
+Maintainer: Thuan
+Filename: ./debs/tweaks/com.tweak.eclipsex_5.1.9.deb
+Size: 606278
+MD5sum: 8e2a4eec56897ac99aa259a41225f653
+SHA1: 490aef223582f03f5330460a0918d98ae4b1b890
+SHA256: a3711bbcb085c08d29fcf50b45f947df51f28636a5d8fad0a18d8b32f6f80482
+Depiction: https://itweaks.xyz/depictions/com.tweak.eclipsex/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.eclipsex/index.json
+
+Package: com.tweak.eclipse12
+Name: Eclipse Dark Mode (iOS 12)
+Version: 6.1.2-1
+Depends: mobilesubstrate, preferenceloader, applist, firmware (>= 12.0), com.creaturesurvive.libcscolorpicker
+Architecture: iphoneos-arm
+Section: Tweaks
+Description: Customizable Dark Mode for iOS 12!
+Author: Guillermo Morán (fr0st)
+Maintainer: Guillermo Morán (fr0st)
+Filename: ./debs/tweaks/com.tweak.eclipse12_6.1.2-1_iphoneos-arm.deb
+Size: 699968
+MD5sum: 1841e145d94df175976522c7a560adc2
+SHA1: 38320c0a6bc5883bd3bf1bb39d4520fbb5e72e98
+SHA256: dd3283d490799741b0a4f73b45d80c41e9f02ecba06922eb4063ad00ad40a6d4
+Depiction: https://itweaks.xyz/depictions/com.tweak.eclipse12/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.eclipse12/index.json
+
+Package: com.tweak.ultrasound
+Name: Ultrasound
+Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader
+Architecture: iphoneos-arm
+Description: A brand-new, unobtrusive, OLED-friendly volume HUD.
+Section: Tweaks
+Conflicts: com.ruler225.videohud, com.spark.melior, net.midkin.smartvolumecontrol2, es.ubikstyl.sonus12, me.nepeta.brokenhud, me.nepeta.flashyhud, applebetas.ios.tweak.willow
+Version: 1.2.9
+Maintainer: Ayden Panhuyzen
+Author: Ayden Panhuyzen
+Filename: ./debs/tweaks/com.tweak.ultrasound_1.2.9.deb
+Size: 238660
+MD5sum: a7934170e3323645b4cd9bc67600faa6
+SHA1: d180d72e6bc66010c6d9a5ba7e10fad6bf3d6054
+SHA256: 73f052a76a7c396251416519431ae5b46bdf4b5ece2b68ebff93b994a5df3282
+Depiction: https://itweaks.xyz/depictions/com.tweak.ultrasound/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.ultrasound/index.json
+
+Package: com.theme.glasklart
+Name: Glasklart
+Version: 5.6
+Architecture: iphoneos-arm
+Description: theme style glass for ios.
+Section: Themes
+Maintainer: Max Rudberg
+Author: Max Rudberg
+Filename: ./debs/theme/com.theme.glasklart_5.6.deb
+Size: 2447278
+MD5sum: 36220b39defadcb851e4fe86249a4713
+SHA1: c9928ced742b70da0635255799d809d2a5a6ce85
+SHA256: 9e2777d02d9948dbe05580f0fc46f2af196816dafe10dc6b0b80cad2c2162031
+Depiction: https://itweaks.xyz/depictions/com.theme.glasklart/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.glasklart/index.json
+
+Package: me.apptapp.installer
+Name: Installer
+Version: 5.0b8~2
+Architecture: iphoneos-arm
+Depends: firmware (>= 9.0)
+Description: A modern package manager built specifically for iOS!
+Section: Packaging
+Icon: https://synnygr.dev/AppTapp/installer_icon.png
+Author: AppTapp <support@apptapp.me>
+Maintainer: AppTapp <support@apptapp.me>
+Filename: ./debs/package/Installer_latest_5.0b8~2.deb
+Size: 23749430
+MD5sum: 2553fa7fa001e6a0b59521d941794884
+SHA1: 34ff779b7efe03c8d4df285282ab0fcca4f59fa9
+SHA256: 99e4557269882d5f086b38f3c5b60799e013569b98b3161d4b7ead8de5fa9393
+Depiction: https://itweaks.xyz/depictions/me.apptapp.installer/index.html
+SileoDepiction: https://itweaks.xyz/depictions/me.apptapp.installer/index.json
+
+Package: com.theme.flux
+Name: Flux
+Version: 1.1
+Architecture: iphoneos-arm
+Description: An Awesome SpringBoard Theme!
+Section: Themes
+Author: dpth
+Maintainer: thuan
+Filename: ./debs/theme/com.theme.flux_1.1_iphoneos-arm.deb
+Size: 7230898
+MD5sum: b6eb5ebb0af450cc49412c88e791ca41
+SHA1: b91da2e93506814a26a419adb03fdd0324d5f2ba
+SHA256: 41ec014dec908901525e9e01564d774d4fe6c8c0c52738e6464f27d5333b6b92
+Depiction: https://itweaks.xyz/depictions/com.theme.flux/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.flux/index.json
+
+Package: fi.flodin.tonemanager
+Name: ToneManager
+Depends: applist, com.modmyi.libswift4 (>= 4.1.2-3), com.rpetrich.rocketbootstrap (>= 1.0.3)
+Architecture: iphoneos-arm
+Description: Install ringtones from Audiko, Zedge and more!
+Maintainer: Jesper Flodin <jesper@flodin.fi>
+Author: Jesper Flodin <jesper@flodin.fi>
+Section: Utilities
+Version: 0.6.2-368
+Filename: ./debs/tweaks/fi.flodin.tonemanager_0.6.2-368.deb
+Size: 3824220
+MD5sum: ed3c07111c2e186900e3fe4990571add
+SHA1: a6c775ea6a6e8dd1b1861d715bad8002bdc17320
+SHA256: bd822e8e6b910f6288064544313eb15bdedca1a139346630d889ea90724394ba
+Depiction: https://itweaks.xyz/depictions/fi.flodin.tonemanager/index.html
+SileoDepiction: https://itweaks.xyz/depictions/fi.flodin.tonemanager/index.json
+
+Package: com.tweak.firefly
+Name: Firefly
+Version: 1.2.1-2
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), com.creaturesurvive.libcscolorpicker, com.spark.libsparkapplist
+Icon: file:///Library/PreferenceBundles/FireflyPrefs.bundle/FireflyIcon-BIG.png
+Author: Sirius24
+Maintainer: Sirius24
+Filename: ./debs/tweaks/com.tweak.firefly_1.2.1-2_iphoneos-arm.deb
+Size: 1021162
+MD5sum: 73115b1beffd53304bf677183c5c82c8
+SHA1: 61b144a4d44ead3ab399abf27d27ecc128260eb4
+SHA256: 0f87b42c8d86d4b11a19a9409d20e4681a24ca5e1978bd130f1036399972d1f1
+Depiction: https://itweaks.xyz/depictions/com.tweak.firefly/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.firefly/index.json
+
+Package: com.tweak.honey
+Name: Honey
+Version: 1.0.2
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Conflicts: com.blakeboxberger.dockremover, fixed, com.hackyouriphone.honey, org.cydia.kiimo.honey
+Architecture: iphoneos-arm
+Section: Tweaks
+Description: The watchOS app launcher, now on your iOS device! — Supports iOS 11 and 12.
+Author: Blake Boxberger
+Maintainer: Blake Boxberger
+Filename: ./debs/tweaks/com.tweak.honey_1.0.2_iphoneos-arm.deb
+Size: 77236
+MD5sum: 616ee0655a1221b5a137be04280e623c
+SHA1: 1967771f8d34c10062201600e3c7a5acac2fd93a
+SHA256: 9f2ce530c89d1978b59766528729a135d610b59bb13a6a34c3c964a68462fcdb
+Depiction: https://itweaks.xyz/depictions/com.tweak.honey/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.honey/index.json
+
+Name: Carbon Dark Mode
+Package: com.oxidelabs.carbon
+Description: Simple. Efficient. Beautiful. Dark Mode for iOS.
+Architecture: iphoneos-arm
+Section: Tweaks
+Depiction: https://repo.packix.com/package/com.oxidelabs.carbon/
+Icon: https://repo.packix.com/api/Packages/5d57ca75b1479e0013ef8c3a/icon/download?size=medium&hash=2
+SileoDepiction: https://repo.packix.com/api/sileo/package/com.oxidelabs.carbon/depiction
+Version: 1.4.6
+Tag: purpose::extension, cydia::commercial, compatible_min::ios11.0, compatible_max::ios12.4
+Author: OxideLabs
+Maintainer: OxideLabs
+Depends: mobilesubstrate, preferenceloader, com.spark.libsparkapplist, com.opa334.ccsupport, com.rpetrich.rocketbootstrap
+Installed-Size: 772
+Filename: ./debs/tweaks/com.oxidelabs.carbon_1.4.6_iphoneos-arm.deb
+Size: 132454
+MD5sum: 48db7eac1e5de8370a8249e6716fcc0c
+SHA1: e33f251636f55603051c327ce14d8640679cf8d3
+SHA256: fe8bc5dbf9f0c2f5442cd89194fecaeea5a892b4977cd4b72ccbfa979f665f52
+
+Package: com.castyte.appprotect
+Name: AppProtect
+Depends: mobilesubstrate, firmware (>= 10.0), applist, preferenceloader
+Version: 0--b1
+Architecture: iphoneos-arm
+Description: Lock your apps with FaceID/TouchID
+Section: Tweaks
+Maintainer: Castyte <castyte@pm.me>
+Author: Castyte <castyte@pm.me>
+Filename: ./debs/tweaks/com.castyte.appprotect_0--b1_iphoneos-arm.deb
+Size: 33888
+MD5sum: 3bd2e625a328bae58c6d6cfe9b682d8a
+SHA1: 11b04516b1ea3a9443382a15ba247451ce25f6e2
+SHA256: 130cfe87f6bfe570c23ca805323306a5bbd56de8ba63d7014f5527ee13bcea30
+Depiction: https://itweaks.xyz/description.html?id=com.castyte.appprotect
+SileoDepiction: https://itweaks.xyz/depictions/com.castyte.appprotect/index.json
+
+Package: com.theme.gruvy
+Name: Gruvy
+Version: 1.0
+Architecture: iphoneos-arm
+Description: An Awesome SpringBoard Theme!
+Section: Themes
+Author: thuan
+Maintainer: thuan
+Filename: ./debs/theme/com.theme.gruvy_1.0_iphoneos-arm.deb
+Size: 947594
+MD5sum: cc0c95b2f42bd197e270cf9c550ac194
+SHA1: 6ffeab00cfb636803337877b12979f4691122740
+SHA256: a7192b272a8a4c33f51caaef9bc6a819b2994fa73c2ecc1ed0c53bdf63c35f64
+Depiction: https://itweaks.xyz/depictions/com.theme.gruvy/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.gruvy/index.json
+
+Package: com.theme.dough
+Name: Dough
+Version: 1.0
+Architecture: iphoneos-arm
+Description: An Awesome SpringBoard Theme!
+Section: Themes
+Author: XerusDesign
+Maintainer: thuan
+Filename: ./debs/theme/com.theme.dough_1.0_iphoneos-arm.deb
+Size: 6500928
+MD5sum: f2ec33cb66d42377b0d529f14554eb84
+SHA1: 03ee5129926af6cda3560c4916f55845b35afea9
+SHA256: 52bd4e80f4c697f2a18ce22922400b0ef62711c6b069fbb951dc02148d9e2fb3
+Depiction: https://itweaks.xyz/depictions/com.theme.dough/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.dough/index.json
+
+Package: com.tweak.cracktool4
+Name: CrackTool4 (iOS 12)
+Version: 4.0~beta1
+Architecture: iphoneos-arm
+Description: Crack Tweaks on one click
+Author: julioverne
+Section: Utilities
+Maintainer: thuan
+Depends: ldid (>= 2.1.1), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils, odcctools
+Filename: ./debs/Utilities/com.tweak.cracktool4_4.0~beta1_iphoneos-arm.deb
+Size: 83232
+MD5sum: 36f5e1dc2e0f4141af0f70e759bb8c7c
+SHA1: 1c592c8250d073a88a61ef58b1398fe8cb0ca910
+SHA256: 0b9415056c23ed0fc98b000301dab00b0ec6db865bea6196b3b1fedfa9f96d0b
+Depiction: https://itweaks.xyz/depictions/com.tweak.cracktool4/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.cracktool4/index.json
+
+Package: com.cokepokes.appstoreplusplus
+Name: AppStore++
+Version: 0.9.7
+Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-12.4
+Section: Tweaks
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.unlimapps.uaupdatetools
+Priority: optional
+Architecture: iphoneos-arm
+Author: CokePokes
+Maintainer: CokePokes
+Filename: ./debs/tweaks/com.cokepokes.appstoreplusplus_0.9.7_iphoneos-arm.deb
+Size: 1320492
+MD5sum: b3201af1744133cb79bf080c145998ea
+SHA1: 1159e548602d57603473c374f4e1a03e97fb5850
+SHA256: daab5e2b1b0a6d644fb8ad560571208decce4b510f5741193e0892f0806a632c
+Depiction: https://itweaks.xyz/depictions/com.cokepokes.appstoreplusplus/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.cokepokes.appstoreplusplus/index.json
+
+Package: com.mumiantech.NotifierDots
+Name: NotifierDots
+Version: 0.2-1
+Priority: optional
+Section: System
+Depends: firmware (>= 11.0), mobilesubstrate, applist, com.rpetrich.rocketbootstrap (>= 1.0.2)
+Architecture: iphoneos-arm
+Description: NotifierDots is a tweak to show notification indicator in status bar.
+Author: iamalive2008
+Maintainer: iamalive2008
+Filename: ./debs/tweaks/com.mumiantech.NotifierDots_0.2-1_iphoneos-arm.deb
+Size: 129386
+MD5sum: 7060b636b226ed3b6637d6e091470e1c
+SHA1: 304ba2cc1dd6c108bc59d6cac4a6dd5f919c4d03
+SHA256: c23f7ef380a7cca07cbdaa520fffb0d3727674c1f7f293fa562376b72d7a7d47
+Depiction: https://itweaks.xyz/depictions/com.mumiantech.NotifierDots/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.mumiantech.NotifierDots/index.json
+
+Package: com.tweak.apptools
+Name: AppTools
+Version: 1.6.0
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm
+Description: Swipe down the icon to launch the tools
+Section: Tweaks
+Author: aReo
+Maintainer: aReo
+Filename: ./debs/tweaks/com.tweak.apptools_1.6.0_iphoneos-arm.deb
+Size: 607604
+MD5sum: 4ece9c80ea3b4d727036d8b1caf59c1e
+SHA1: 8896ba9e19f185cef31606dfb0ba853c7e6de24e
+SHA256: bd2bbd965a51b864ca75b224898c135b63e390ba78dce0ac5119c6b8f678ce41
+Depiction: https://itweaks.xyz/depictions/com.tweak.apptools/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.apptools/index.json
+
+Package: com.tweak.translomatic
+Name: Translomatic
+Version: 1.2.10
+Depends: mobilesubstrate, preferenceloader, com.foxfort.foxforttools, com.foxfort.libfoxfortutils, com.rpetrich.rocketbootstrap (>= 1.0.3)
+Conflicts: com.hackyouriphone.translomatic, com.foxfort.translomatic
+Architecture: iphoneos-arm
+Section: Tweaks
+Description: Quickly translate any text
+Author: FoxfortMobile
+Maintainer: FoxfortMobile
+Filename: ./debs/tweaks/com.tweak.translomatic_1.2.10_iphoneos-arm.deb
+Size: 227658
+MD5sum: fdaf61a7e4634d2db419080fee47ea10
+SHA1: 6931f4250ac1d0908816ec37f18554edc3d0e1bf
+SHA256: 3596d9bce4652b9d23501dd58609634b67572926d45225eeec87508dff49a24c
+Depiction: https://itweaks.xyz/depictions/com.tweak.translomatic/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.translomatic/index.json
+
+Package: com.tweak.dismissprogress
+Name: DismissProgress
+Version: 1.0.4
+Depends: firmware (>= 6.0)
+Conflicts: org.thebigboss.dismissprogress
+Section: Tweaks
+Architecture: iphoneos-arm
+Description: Dismiss installation window without closing cydia.
+Maintainer: PoomSmart
+Author: PoomSmart
+Filename: ./debs/tweaks/com.tweak.dismissprogress_1.0.4_iphoneos-arm.deb
+Size: 7968
+MD5sum: 936024169709dac1a5792a8408dbc86e
+SHA1: 22a8c40499426059420ed340598104b8544f21f5
+SHA256: bde667a63b61a6ffee0286b4c68a28eed368fcb718de1e3dd81afac93747e860
+Depiction: https://itweaks.xyz/depictions/com.tweak.dismissprogress/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.dismissprogress/index.json
+
+Package: com.tweak.dapple
+Name: Dapple
+Version: 1.0.9
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
+Conflicts: com.dpkg.dapple, com.hackyouriphone.daple, org.cydia.kiimo.dapple, ru.rejail.daple
+Architecture: iphoneos-arm
+Section: Tweaks
+Description: Liven up your modern StatusBar!
+Author: dpkg
+Maintainer: dpkg
+Filename: ./debs/tweaks/com.tweak.dapple_1.0.9_iphoneos-arm.deb
+Size: 48002
+MD5sum: f48bbb68e80b80978ece2f7ed3aa0b68
+SHA1: 5073582ccff563ed314c2b2f5ee376c901bf7f07
+SHA256: 24fa0ce29a31ddbe2c3d74682fd63edcd2b469a4d2c16da7fdfca6cd40a7e9f7
+Depiction: https://itweaks.xyz/depictions/com.tweak.dapple/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.dapple/index.json
+
+Package: com.tweak.manta
+Name: Manta
+Version: 1.0.3
+Depends: mobilesubstrate, firmware (>= 12.0)
+Conflicts: com.ioscreatix.twig, com.hackyouriphone.twig, com.bengiannis.twig2, xyz.royalapps.jellyfish, com.hackyouriphone.jellyfish, com.hackyouriphone.jellyfishcrack, ru.rejail.jellyfish, com.tweak.jellyfish
+Architecture: iphoneos-arm
+Section: Tweaks
+Description: Redesign your lock screen! Up Next calendar and weather info at a glance.
+Author: Ben Giannis
+Maintainer: Ben Giannis
+Filename: ./debs/tweaks/com.tweak.manta_1.0.3_iphoneos-arm.deb
+Size: 209840
+MD5sum: b8e02eb4ec4b4d898e8fc36666455891
+SHA1: 1f821edfcbc7b7ff0767ce237c91ff177bcb03c6
+SHA256: f6537dc72fa55d83e01f73016a390a279984b5c19b03f36b26a3f20bf7c076eb
+Depiction: https://itweaks.xyz/depictions/com.tweak.manta/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.manta/index.json
+
+Package: com.tweak.asteroid
+Name: Asteroid
+Version: 3.0.4
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.creaturecoding.libcspreferences (>= 1.1.5), com.creaturesurvive.libcscolorpicker(>= 1.0.3)
+Conflicts: com.midnightchips.asteroid
+Replaces: com.midnightchips.asteroid
+Section: Tweaks
+Priority: optional
+Architecture: iphoneos-arm
+Description: System-Wide Weather.
+Maintainer: midnightchips & the casle
+Author: midnightchips & the casle
+Filename: ./debs/tweaks/com.tweak.asteroid_3.0.4_iphoneos-arm.deb
+Size: 866776
+MD5sum: a3579b37cc92feeff1103210ceb47929
+SHA1: 76164903db8e6b15b852e4dfad4a99c0adc715c7
+SHA256: eb711787ea39de85b568bac3887066c5fb168a9cf73922da82d25ac2ec4335c3
+Depiction: https://itweaks.xyz/depictions/com.tweak.asteroid/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.asteroid/index.json
+
+Package: com.theme.niivo
+Name: Niivo
+Version: 1.0
+Architecture: iphoneos-arm
+Section: Themes
+Description: A vibrant color theme
+Author: aokuro
+Maintainer: aokuro
+Filename: ./debs/theme/com.theme.niivo_1.0_iphoneos-arm.deb
+Size: 3343564
+MD5sum: ea6fd6e096a3cfdb6dc71d6984aa61de
+SHA1: c9cf581c22c48a55f37dc1fcb7e81153e29b8143
+SHA256: 5f7c8f8d50de503de2c22d4c10bcc40cfc5435daaa6192f4d975a3b71e48bfed
+Depiction: https://itweaks.xyz/depictions/com.theme.niivo/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.niivo/index.json
+
+Package: com.theme.zanilla9
+Name: Zanilla9
+Version: 1.0
+Section: Themes
+Architecture: iphoneos-arm
+Description: iOS Theme Irresistible eye candy
+Author: Purdixx
+Maintainer: Purdixx
+Filename: ./debs/theme/com.theme.zanilla9_1.0_iphoneos-arm.deb
+Size: 1284110
+MD5sum: 08e642ea081603b88872395e043fead7
+SHA1: 6cdc2db4e83318d80ed67bea9ecf954f3ad41a0b
+SHA256: c2d3f82246afa0a4320f4e7a861f3dd65d015c331b86cf6c12f8c986461b91da
+Depiction: https://itweaks.xyz/depictions/com.theme.zanilla9/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.zanilla9/index.json
+
+Package: com.tweak.speculum
+Name: Speculum
+Version: 1.3.4
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker, ws.hbang.common (>= 1.11)
+Conflicts: com.lacertosusrepo.speculum
+Description: Customizable lockscreen time, date, and weather information
+Author: LacertosusDeus <LacertosusThemes@gmail.com>
+Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
+Filename: ./debs/tweaks/com.tweak.speculum_1.3.4_iphoneos-arm.deb
+Size: 116478
+MD5sum: 56fc8090f8bf387155ef73c34e432756
+SHA1: fc1b6f54aa8de138e0b60f532dea1b6a1b82b03a
+SHA256: 20901f4457fabf2b6c3081c917fbd595a94f0e2de1bcfba8ffd5105b8eec7e83
+Depiction: https://itweaks.xyz/depictions/com.tweak.speculum/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.speculum/index.json
+
+Package: com.tweak.simplels2
+Name: SimpleLS 2
+Version: 1.0.3
+Description: SimpleLS ios 12.
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Conflicts: com.xcxiao.simplels2
+Author: XCXiao
+Maintainer: XCXiao
+Filename: ./debs/tweaks/com.tweak.simplels2_1.0.3_iphoneos-arm.deb
+Size: 407964
+MD5sum: bb048a2f413d4b137cb29e41cd94f41a
+SHA1: bc75a47d714e4a6ba470bb691bd25bf4046aa116
+SHA256: 82656e22915e419b8533e011ecef5a941dbbe328df2c5a10543ae98908519765
+Depiction: https://itweaks.xyz/depictions/com.tweak.simplels2/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.simplels2/index.json
+
+Package: com.widget.widget7
+Name: Widget7
+Version: 1.0.1
+Architecture: iphoneos-arm
+Description: Simple date and time widget
+Section: Widgets
+Conflicts: com.yourepo.codeone.widget7
+Author: CodeOne88 <sant.ortega88@gmail.com>
+Maintainer: EnterApps <sant.ortega88@gmail.com>
+Filename: ./debs/widget/com.widget.widget7_1.0.1_iphoneos-arm.deb
+Size: 72620
+MD5sum: 4cfb52f32c6eb62f466d763d86f6250f
+SHA1: b24fe251f3a8833689fcb16e706e0507dc8cae80
+SHA256: 550ea288cdff044b19ea5dda7e7d93bf0a8021e275ca3a1c35660132e1aa07b3
+Depiction: https://itweaks.xyz/depictions/com.widget.widget7/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.widget.widget7/index.json
+
+Package: com.widget.module3
+Name: Module3
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Music, date, time, battery widget. Depends on XenInfo.
+Section: Widgets
+Conflicts: com.yourepo.codeone.module3
+Author: CodeOne88 <sant.ortega88@gmail.com>
+Maintainer: EnterApps <sant.ortega88@gmail.com>
+Filename: ./debs/widget/com.widget.module3_1.0.0_iphoneos-arm.deb
+Size: 105472
+MD5sum: cc4490ed1628b5e78bab2bc61f52ba1f
+SHA1: 5dc265badb29ca6d94a214ba6415d5f135d87504
+SHA256: 545389061cfbefb3b0b4903acf66508f5c9d7247d7f12374497f1bfedaa551e3
+Depiction: https://itweaks.xyz/depictions/com.widget.module3/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.widget.module3/index.json
+
+Package: com.widget.stringsaa
+Name: Strings
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Simple animated widget. Reacts with your touch
+Section: Widgets
+Conflicts: com.yourepo.codeone.strings
+Author: CodeOne88 <sant.ortega88@gmail.com>
+Maintainer: EnterApps <sant.ortega88@gmail.com>
+Filename: ./debs/widget/com.widget.strings_1.0.0_iphoneos-arm.deb
+Size: 2978
+MD5sum: 382d4f80c6ab5c54bf4530f9967162c2
+SHA1: 2309c11e9bd32f87dc0c44b163f3b36e29cf5db6
+SHA256: b0ba858e4a7904bc4524e36d0a0e8bd034192beb132a5cb71099204dff677969
+Depiction: https://itweaks.xyz/depictions/com.widget.strings/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.widget.strings/index.json
+
+Package: com.widget.ls45
+Name: LS45
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Simple date and time widget
+Section: Widgets
+Author:  bdt90
+Maintainer: Mrthuan
+Filename: ./debs/widget/com.widget.ls45_1.0_iphoneos-arm.deb
+Size: 130264
+MD5sum: 4e02ce2084ceee4cf20aef0a97c0d046
+SHA1: 04317d45f5893bec4fbc7c4283fdb38ce0dc3357
+SHA256: bd2e6b3420da2092ba00416d115bd7ebd546158ef599baf64947f6dd00af00dc
+Depiction: https://itweaks.xyz/depictions/com.widget.ls45/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.widget.ls45/index.json
+
+Package: com.widget.weather12
+Name: Weather12
+Version: 1.2.0
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
+Architecture: iphoneos-arm
+Section: Widgets
+Description: A clock from a iOS 12 Concept
+Author: 0neGuyDev
+Maintainer: 0neGuyDev
+Filename: ./debs/widget/com.widget.weather12_1.2.0_iphoneos-arm.deb
+Size: 536572
+MD5sum: 7c692626f59babd939358b1cd3c5e407
+SHA1: 45afb19d8b1bdfe88609b2d59a6a14f75c691f29
+SHA256: 5248629c56b1c768ed0974a26e7d4c95b894fc91432d95bcdc2fabeb260214a3
+Depiction: https://itweaks.xyz/depictions/com.widget.weather12/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.widget.weather12/index.json
+
+Package: com.esquilli.lisa
+Name: Lisa
+Depends: mobilesubstrate, com.creaturesurvive.libcscolorpicker (>= 1.0.3), me.nepeta.libnepeta, ws.hbang.common (>= 1.11), applist, firmware (>= 11.0)
+Architecture: iphoneos-arm
+Description: Customize your Lock Screen experience
+Maintainer: Esquilli <esquillidev@gmail.com>
+Author: Esquilli <esquillidev@gmail.com>
+Section: Tweaks
+Version: 1.0.4
+Installed-Size: 1188
+Filename: ./debs/tweaks/com.esquilli.lisa_1.0.4_iphoneos-arm.deb
+Size: 618942
+MD5sum: a414046839a3fdc6459f663ee3da6576
+SHA1: d6eb40f4cf094a86f30d82c614c53fe83e967065
+SHA256: 43b77df5e91ba6c3edd1933c0289665a84ff731aedd87eaf587d42ece6b6f37a
+Depiction: https://itweaks.xyz/description.html?id=com.esquilli.lisa
+SileoDepiction: https://itweaks.xyz/depictions/com.esquilli.lisa/index.json
+
+Package: com.tweak.semperin
+Name: Semperon
+Version: 1.7
+Depends: mobilesubstrate, com.laughingquoll.prefixui, preferenceloader
+Conflicts: com.hackyouriphone.semperin, cydia.kiiimo.org.semperon, ru.rejail.semperin, com.laughingquoll.semperin
+Architecture: iphoneos-arm
+Section: Tweaks
+Description: Always on Display!
+Author: LaughingQuoll
+Maintainer: LaughingQuoll
+Filename: ./debs/tweaks/com.tweak.semperin_1.7_iphoneos-arm.deb
+Size: 45682
+MD5sum: 5956631b5acfc6550825d8359f050559
+SHA1: d4cd6a2043405f84c5011baf2cf2e832cc7c5331
+SHA256: 95512326162cdaa3ce7795c1263f7cf2e6a3b6455acb104625496f730d01ca79
+Depiction: https://itweaks.xyz/depictions/com.tweak.semperin/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.semperin/index.json
+
+Package: com.tweak.axon
+Name: Axon
+Version: 0.1.9
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 11.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
+Architecture: iphoneos-arm
+Section: Tweaks
+Description: Priority Hub for iOS 11 and 12
+Author: Nepeta
+Maintainer: Nepeta
+Filename: ./debs/tweaks/com.tweak.axon_0.1.9_iphoneos-arm.deb
+Size: 125540
+MD5sum: b6f877aeff7a2aa8b07375933f51da96
+SHA1: 1e11c403d09310adb08a6a70c6905c6b5a5db6c8
+SHA256: f9866037bad8b85714c0dba658861b70dd6b1f69aa0d48f7b153325febe70c0f
+Depiction: https://itweaks.xyz/depictions/com.tweak.axon/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.axon/index.json
+
+Package: com.tweak.cuboid
+Name: Cuboid
+Version: 2.0.1
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Section: Tweaks
+Description: Lightweight home screen layout manager.
+Maintainer: chilaxan & Nepeta
+Author: chilaxan & Nepeta
+Filename: ./debs/tweaks/com.tweak.cuboid_2.0.1_iphoneos-arm.deb
+Size: 67356
+MD5sum: 711ea731bf7ce9b8ed521f062afa0025
+SHA1: a383132d16a7a7767bce9dce685059883585f51b
+SHA256: 957710f6e544d6ce0aa9c9fdb185d9e9bed6e3105d5c7a4e0734dc5b13308775
+Depiction: https://itweaks.xyz/depictions/com.tweak.cuboid/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.cuboid/index.json
+
+Package: com.tweak.relocate
+Name: Relocate
+Version: 0.1.11
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 11.0), applist, com.rpetrich.rocketbootstrap (>= 0.1.7)
+Architecture: iphoneos-arm
+Section: Tweaks
+Description: Minimalist fake GPS spoofer
+Author: Nepeta
+Maintainer: Nepeta
+Filename: ./debs/tweaks/com.tweak.relocate_0.1.11_iphoneos-arm.deb
+Size: 94596
+MD5sum: 739bcab97e01e1c07a2cd48b5528453e
+SHA1: 9ddf42f0f82d271e4c82112d8ad25424210ce946
+SHA256: e8195fcb9aa184d61504e53f24afb02fa9ac36914d77e76817f98d654d8f3e73
+Depiction: https://itweaks.xyz/depictions/com.tweak.relocate/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.relocate/index.json
+
+Package: com.tweak.slyd
+Name: Slyd (SlideToUnlock)
+Version: 0.2.4
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 11.0)
+Conflicts: me.nepeta.nottoday12, io.ijapija00.notodayview
+Architecture: iphoneos-arm
+Section: Tweaks
+Description: Slide to unlock for iOS 11 and 12.
+Author: Nepeta
+Maintainer: Nepeta
+Filename: ./debs/tweaks/com.tweak.slyd_0.2.4_iphoneos-arm.deb
+Size: 18520
+MD5sum: 1f2977e1209b62dc2602c6924831217b
+SHA1: 333a52d3d6602ed5854775a2575f3169f6f6fe51
+SHA256: b01858d532511ff97db7538a8cfc69b8109201027de2c09790a64e2d17dce8ad
+Depiction: https://itweaks.xyz/depictions/com.tweak.slyd/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.slyd/index.json
+
+Package: me.nepeta.unsub
+Name: UnSub
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), applist, firmware (>= 9.0)
+Conflicts: co.vexation.nosubstitute, com.opa334.nosubstitute12
+Architecture: iphoneos-arm
+Description: Disable tweak injection (Substrate/Substitute) in certain apps.
+Maintainer: Nepeta
+Author: Nepeta
+Section: Tweaks
+Version: 0.1.9
+Installed-Size: 624
+Filename: ./debs/tweaks/me.nepeta.unsub_0.1.9_iphoneos-arm.deb
+Size: 41206
+MD5sum: 7231014fd36383bc396dea91412b004e
+SHA1: b2a6a5b4b0c94edb180b2f6514abee94c5059165
+SHA256: 8b351a1835d8d2a8b519c0d360695e4da4286c265066d43f0c46880a5bb9a3d6
+Depiction: https://itweaks.xyz/depictions/com.tweak.unsub/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.unsub/index.json
+
+Package: com.tweak.vartaman
+Name: Vartaman
+Version: 1.2
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, net.limneos.libbulletin
+Conflicts: org.cydia.kiimo.vartaman, com.hackyouriphone.vartaman
+Architecture: iphoneos-arm
+Description: Update your Wallpaper periodically!.
+Icon: file:///Library/Application Support/Vartaman/Tweakicon.png
+Author: P2KDev <p2kdev@gmail.com>
+Maintainer: P2KDev
+Filename: ./debs/tweaks/com.tweak.vartaman_1.2_iphoneos-arm.deb
+Size: 77062
+MD5sum: 785e005ab7e8c99b2c445aaca775dcbe
+SHA1: d0322649c8718fafb43d11bde805cf03481be205
+SHA256: 046e8b386487a95bf6c5c04f116c4599e3054280b9a2cca71e646be41075eaef
+Depiction: https://itweaks.xyz/depictions/com.tweak.vartaman/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.vartaman/index.json
+
+Package: com.tweak.cosmos
+Name: Cosmos
+Version: 1.0.2-1
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), com.creaturesurvive.libcscolorpicker
+Section: Tweaks
+Description: System-wide customization!.
+Architecture: iphoneos-arm
+Author: Sirius24
+Maintainer: Sirius24
+Filename: ./debs/tweaks/com.tweak.cosmos_1.0.2-1_iphoneos-arm.deb
+Size: 748738
+MD5sum: 194b5f523cff3a19027e16b001952615
+SHA1: fe5edb166cf543edeb6dd3578c5444975b01df85
+SHA256: 6d9f337b0660212d27d16f9f81889c8f89569b1a1748bde8a9cfe61e65480557
+Depiction: https://itweaks.xyz/depictions/com.tweak.cosmos/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.cosmos/index.json
+
+Package: com.widget.hs13
+Name: HS13
+Version: 1.6.1
+Architecture: iphoneos-arm
+Section: Widgets
+Description: A smooth XenHTML Weather/Date/Time/Music/battery/device info/countdown Widget 
+Maintainer: apladdict
+Author: apladdict
+Filename: ./debs/widget/com.widget.hs13_1.6.1_iphoneos-arm.deb
+Size: 327876
+MD5sum: 9777dacadb861259ea5d1e3a20197e89
+SHA1: a66764f9de8e4c436db5af5cc2eb9efeb4ecb351
+SHA256: a0f002989f3b0815e25c65cee0b3c9d4d224fca25069b83ebc7f2dc0205bb8c5
+Depiction: https://itweaks.xyz/depictions/com.widget.hs13/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.widget.hs13/index.json
+
+Package: com.widget.panoramapro
+Name: PanoramaPro
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Widget panorama wallpaper
+Section: Widgets
+Maintainer: aussieappz
+Author: aussieappz
+Filename: ./debs/widget/com.widget.panoramapro_1.0-iphoneos-arm.deb
+Size: 5924044
+MD5sum: f33af2f0d3889016b14fc14f4a51d5ba
+SHA1: a4fea62cafaeb3da86988be074481a96de7caabd
+SHA256: df6ee8e96d233481c5b4347d9a606f43c037f30db47b3cbb995938a3eb357d25
+Depiction: https://itweaks.xyz/depictions/com.widget.panoramapro/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.widget.panoramapro/index.json
+
+Package: com.widget.applewatchtime
+Name: Apple Watch Time
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Apple Watch Time on your lock screen.
+Section: Widgets
+Author: AussieAppz <info@aussieappz.com>
+Maintainer: AussieAppz
+Filename: ./debs/widget/com.widget.applewatchtime.deb
+Size: 114444
+MD5sum: dff0b743705017ddbcf2a31bb5964c1d
+SHA1: a5cd77e5b7fdbb2ae23d81838ae35d2785319858
+SHA256: ca8f3322eae3eafef341a39880e40bf8580830b4761070934753ed8e319e7f1b
+Depiction: https://itweaks.xyz/depictions/com.widget.applewatchtime/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.widget.applewatchtime/index.json
+
+Package: com.r333d.cylinder
+Name: Cylinder
+Version: 1.0.7~beta2
+Depends: firmware (>= 3.0), mobilesubstrate (>= 0.9.6011), preferenceloader
+Architecture: iphoneos-arm
+Section: Tweaks
+Description: Make your icons dance
+Icon: file:///Library/PreferenceBundles/CylinderSettings.bundle/Icon@2x.png
+Author: Reed Weichler (rweichler) <rweichler+cydia@gmail.com>
+Maintainer: ichitaso <willfeeltips+cylider@gmail.com>
+Filename: ./debs/tweaks/com.r333d.cylinder.cylinder_1.0.7~beta2_iphoneos-arm.deb
+Size: 506526
+MD5sum: bae36beb482d41bd6f90774df424b5fd
+SHA1: 638d3d525814d64e9f593fb41743f0e992915d58
+SHA256: 7005c522bf262d08ed8c4ec3bf188f4c12481ec6c8b038c912c9f1ad00de2988
+Depiction: https://itweaks.xyz/depictions/com.r333d.cylinder.cylinder/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.r333d.cylinder.cylinder/index.json
+
+Package: com.antique.crystal
+Name: Crystal
+Version: 1.0
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Clear notifications by swiping down
+Section: Tweaks
+Maintainer: Antique
+Author: Antique
+Installed-Size: 116
+Filename: ./debs/tweaks/com.antique.crystal_1.0_iphoneos-arm.deb
+Size: 3848
+MD5sum: 46cd28d1653d4b64b779997623701ec9
+SHA1: 130ce1bb83cb29028638c461155d84cbd6601808
+SHA256: 262c3d435991192b54291c775e564f06f85de278f3871c69cca8194afe3cb5be
+Depiction: https://itweaks.xyz/depictions/com.antique.crystal/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.antique.crystal/index.json
+
+Package: com.dpkg.ipadswitcher
+Name: iPadSwitcher
+Version: 1.0
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Bring the iPad grid switcher to any device.
+Section: Tweaks
+Maintainer: dpkg_
+Author: dpkg_
+Installed-Size: 248
+Filename: ./debs/tweaks/com.dpkg.ipadswitcher_1.0_iphoneos-arm.deb
+Size: 8346
+MD5sum: a92ed3effaa45b14d02ed9b873b12b8a
+SHA1: 5932e34cb6aa497987e1317c3377956d67568edd
+SHA256: 75682e3cb8ec157529c76949bf21d4e678dc33b9f801421712cbe3f40fc44d51
+Depiction: https://itweaks.xyz/depictions/com.dpkg.ipadswitcher/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.dpkg.ipadswitcher/index.json
+
+Package: com.theme.jellybeans
+Name: Jellybeans Theme
+Version: 2.3.7
+Architecture: iphoneos-arm
+Section: Themes
+Description: iOS Theme
+Author: munakib
+Maintainer: munakib
+Filename: ./debs/theme/com.theme.jellybeans_2.3.7_iphoneos-arm.deb
+Size: 9270944
+MD5sum: c126a7d64a9eb18e2f1e66914e2c658e
+SHA1: 3e7f66e1932d1fe3ca49020b40967369f8fdf3e9
+SHA256: c06b2d80a94e52a685fc06085e78276d94dfc924a1aa5d8d9d7130a3061e79e4
+Depiction: https://itweaks.xyz/depictions/com.theme.jellybeans/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.jellybeans/index.json
+
+Package: com.theme.vivi
+Name: Vivi
+Version: 1.1.0
+Architecture: iphoneos-arm
+Section: Themes
+Description: Stock iOS Revived
+Author: Nickilas
+Maintainer: Nickilas
+Filename: ./debs/theme/com.theme.vivi_1.1.0_iphoneos-arm.deb
+Size: 3984956
+MD5sum: ef0891b61f6b6e8516676b378db423da
+SHA1: 6ff2b6fc231e44cd84feacb907ca2d7153adec1e
+SHA256: 360a16859663ba49ed8e6ca6cf17e68deef809bca1fa6144d70547e98df50fee
+Depiction: https://itweaks.xyz/depictions/com.theme.vivi/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.vivi/index.json
+
+Package: com.theme.mildos
+Name: MildOS
+Version: 1.0.1
+Description: iOS Theme cool
+Section: Themes
+Architecture: iphoneos-arm
+Author: alazybrick <l.giesselmann@icloud.com>
+Maintainer: alazybrick <l.giesselmann@icloud.com>
+Filename: ./debs/theme/com.theme.mildos_1.0.1_iphoneos-arm.deb
+Size: 2178584
+MD5sum: 8bc7e78a587777b22c22b8e034dc61ca
+SHA1: a0c763c38adee5795c7799edd3ffb0b149018083
+SHA256: f46c99d9168ad79a06186a7a2933fb20ffc5c5e6b45f60fb5e5d11cd53931193
+Depiction: https://itweaks.xyz/depictions/com.theme.mildos/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.mildos/index.json
+
+Package: com.tweak.badgecolors
+Name: BadgeColors
+Version: 1.0-4
+Depends: mobilesubstrate, preferenceloader, firmware (>= 10.0), ws.hbang.common (>= 1.2)
+Architecture: iphoneos-arm
+Section: Tweaks
+Description: Color badges based on app icon color
+Maintainer: cole cabral
+Author: cole cabral
+Filename: ./debs/tweaks/com.tweak.badgecolors_1.0-4_iphoneos-arm.deb
+Size: 37368
+MD5sum: 8fa171ddfd4ba0a4df5cf4444d7f9a74
+SHA1: 2f09081bc0ef73b22b087afba367c88b53d2c147
+SHA256: f4b29cddfc3e3f8681a0690362998d9bba7997dbe5bfba4aa2830cc53803e629
+Depiction: https://itweaks.xyz/depictions/com.tweak.badgecolors/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.badgecolors/index.json
+
+Package: com.sticktron.ahahah
+Name: Ah!Ah!Ah! 2.0 Beta 3 (iOS 7-12)
+Version: 2.0-beta3
+Architecture: iphoneos-arm
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Description: Trigger a video alarm when someone tries to unlock your phone.
+Section: Tweaks
+Author: Sticktron <sticktron@hotmail.com>
+Maintainer: Sticktron
+Icon: file:///Library/PreferenceBundles/AhAhAhPrefs.bundle/Icon.png
+Filename: ./debs/tweaks/com.sticktron.ahahah_2.0-beta3_iphoneos-arm.deb
+Size: 3896712
+MD5sum: b57ffd275cd99cb25761d8ceea4f9c72
+SHA1: d1f269e3d19bb6a46fb15b726a0b53cff9d8c65e
+SHA256: e850e5ddaf07c2feaf44c9614fb8c75f8a35bb4c02eff2c277e0f9982daad698
+Depiction: https://itweaks.xyz/depictions/com.sticktron.ahahah/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.sticktron.ahahah/index.json
+
+Package: com.tweak.bazzi2
+Name: Bazzi 2
+Version: 2.0.8
+Section: Tweaks
+Description: The ultimate battery icon customizer, modernized! — Supports iOS 11 and 12.
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, ws.hbang.common, com.rpetrich.rocketbootstrap (>= 1.0.7~beta1)
+Conflicts: com.neinzedd9.bazzi, com.neinzedd9.percentagebatteryx, com.neinzedd9.percentagecirclex
+Replaces: com.neinzedd9.percentagebatteryx, com.neinzedd9.percentagecirclex, com.tweak.bazzi
+Architecture: iphoneos-arm
+Maintainer: Blake Boxberger
+Author: Blake Boxberger
+Filename: ./debs/tweaks/com.tweak.bazzi2_2.0.8_iphoneos-arm.deb
+Size: 63920
+MD5sum: ed98bab8c1843a23ccf2fcb8e5714f6a
+SHA1: 6e1c8c0b280177b9a48178031a0543adfbdf2267
+SHA256: 2f948629f2653456a020806c2e9a88bdd3082b43f7768341fd241fc17de8fa67
+Depiction: https://itweaks.xyz/depictions/com.tweak.bazzi2/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.bazzi2/index.json
+
+Package: xyz.xninja.systeminfo
+Name: System Info
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: System information in Settings app > General > About, and other sections. Set boot-nonce, save shsh, battery info etc
+Maintainer: ARX8x
+Author: ARX8x
+Section: Tweaks
+Tags: settings, specs, system data
+Targets: {"Settings App":["About View"]}
+Version: 2.2.0-19+debug
+Installed-Size: 1554
+Filename: ./debs/tweaks/xyz.xninja.systeminfo_2.2.0-19+debug.deb
+Size: 445844
+MD5sum: 64fa56703a3d792f01b219ab88da1d62
+SHA1: b2d0605325b11485b8fa27eba014b6635c1eee83
+SHA256: 9a722194a7a02ee9b0c86cb54a74f2cae43a7da8ab0a4b2b229209a22388a94e
+Depiction: https://itweaks.xyz/depictions/xyz.xninja.systeminfo/index.html
+SileoDepiction: https://itweaks.xyz/depictions/xyz.xninja.systeminfo/index.json
+
+Package: com.tweak.amour2
+Name: Amour 2
+Version: 1.0
+Section: Tweaks
+Description: Brings additional animations to iOS
+Depends: mobilesubstrate, firmware(>=12.0), com.muris.libgraphite(>=2.1.4), preferenceloader
+Architecture: iphoneos-arm
+Maintainer: Luke Muris
+Author: Luke Muris
+Filename: ./debs/tweaks/com.tweak.amour2_1.0_iphoneos-arm.deb
+Size: 223278
+MD5sum: e347170a7a0cab3ad352cc0bed53f8cd
+SHA1: 92b035580a3f447a78ceea2dc2d5df9aa2fa4352
+SHA256: c83bc76221340d9150960426c2c63b6bdb6f34c6b5f2187b61e7b3dcae7fb315
+Depiction: https://itweaks.xyz/depictions/com.tweak.amour2/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.amour2/index.json
+
+Package: com.tweak.aod
+Name: AOD
+Version: 1.8.3
+Section: Tweaks
+Description: Cool Always-On Display Tweak
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), org.thebigboss.libcolorpicker
+Architecture: iphoneos-arm
+Maintainer: Soh Satoh
+Author: Soh Satoh
+Filename: ./debs/tweaks/com.tweak.aod_1.8.3_iphoneos-arm.deb
+Size: 119814
+MD5sum: e4128d70fc1e455554b63b87cfe772c1
+SHA1: 94ecf687f96bbeb3197c77c9d0de34682d5e531e
+SHA256: 7d6045e1a71d8703c92df179d55edb9a5fa958e80b9640702a6b90c6fe92d0d9
+Depiction: https://itweaks.xyz/depictions/com.tweak.aod/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.aod/index.json
+
+Package: com.tweak.autodynamicwallpapernew
+Name: AutoDynamicWallpaper
+Version: 1.1.0-2
+Section: Tweaks
+Pre-Depends: firmware (>= 9.0)
+Description: Auto dynamic live photo.
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Author: Anima
+Maintainer: Anima
+Filename: ./debs/tweaks/com.tweak.autodynamicwallpapernew_1.1.0-2_iphoneos-arm.deb
+Size: 87774
+MD5sum: 808255c0e01d5844fcc9ac8e6d3adfd9
+SHA1: caecc2f81dc33dd180772f11d501dd3463197039
+SHA256: a3fd4a04d031ee9a36aa6c07326bd951b76f34376175779f89bd2b65c1bf69a6
+Depiction: https://itweaks.xyz/depictions/com.tweak.autodynamicwallpapernew/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.autodynamicwallpapernew/index.json
+
+Package: com.tweak.centaur
+Name: Centaur
+Version: 1.0.8
+Section: Tweaks
+Description: Re-imagine your notification center.
+Depends: mobilesubstrate, preferenceloader, com.creaturesurvive.libcscolorpicker, ws.hbang.common (>= 1.11)
+Architecture: iphoneos-arm
+Author: Muirey03
+Maintainer: Muirey03
+Filename: ./debs/tweaks/com.tweak.centaur_1.0.8_iphoneos-arm.deb
+Size: 678394
+MD5sum: 9d23de9217cb99d57cc0aa7a94665aa5
+SHA1: 1869d72e7633731f78c4a9237b4dc0dddd56fc6d
+SHA256: 78f4bf3c0e2291c6108ad88da7a46a723fdb05f8ec451666a9b450924016b681
+Depiction: https://itweaks.xyz/depictions/com.tweak.centaur/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.centaur/index.json
+
+Package: com.tweak.dots
+Name: Dots
+Version: 1.2.7
+Section: Tweaks
+Description: Add notification dots to your OLED screen!.
+Depends: mobilesubstrate (>= 0.9.5.000), preferenceloader
+Architecture: iphoneos-arm
+Installed-Size: 928
+Maintainer: Shyam Lad <shyamladdev@gmail.com>
+Author: Shyam Lad <shyamladdev@gmail.com>
+Filename: ./debs/tweaks/com.tweak.dots_1.2.7_iphoneos-arm.deb
+Size: 342238
+MD5sum: 513ee3a67027aaa6a651ca67c7c683e7
+SHA1: defa4999f22697d5aea788f20b112e658abe581a
+SHA256: 0062d9a2a2b5c08a2731bf241aab2bdc984d6a0eeda9f04ed45e01c5ce7e47ff
+Depiction: https://itweaks.xyz/depictions/com.tweak.dots/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.dots/index.json
+
+Package: com.tweak.incominglivephoto
+Name: Incoming Call LivePhoto(A12 Support)
+Version: 1.1.1-1
+Section: Tweaks
+Pre-Depends: firmware (>= 10.0)
+Description: iOS Incoming call live photo tweak
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Installed-Size: 676
+Author: anima
+Maintainer: anima
+Filename: ./debs/tweaks/com.tweak.incominglivephoto_1.1.1-1_iphoneos-arm.deb
+Size: 113412
+MD5sum: 3aae89aaf7f409bbb99900761c2ff554
+SHA1: 9753d560d8621d719112fe0681291adbbd77cc3c
+SHA256: 8130b9788372baee34411ffd52165e9295c155772b82b9a0ba800a2e82471894
+Depiction: https://itweaks.xyz/depictions/com.tweak.incominglivephoto/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.incominglivephoto/index.json
+
+Package: com.tweak.lockdock
+Name: LockDock
+Version: 1.0.5
+Section: Tweaks
+Description: Add your dock to your Lock screen.
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Installed-Size: 352
+Author: Blake Boxberger
+Maintainer: Blake Boxberger
+Filename: ./debs/tweaks/com.tweak.lockdock_1.0.5_iphoneos-arm.deb
+Size: 45676
+MD5sum: 5caa50463e4970ead27e1aed7d704969
+SHA1: 95d66f71bef655e2db1ec51a7a57c72a4d3720b1
+SHA256: dfc7a8533f01b99fad160d637c7b4898782212eee85e8ae4229ef89b0b214b81
+Depiction: https://itweaks.xyz/depictions/com.tweak.lockdock/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.lockdock/index.json
+
+Package: com.tweak.moonshine
+Name: Moonshine
+Version: 1.3.1
+Section: Tweaks
+Description: WatchOS inspired features for iOS
+Depends: firmware (>= 11.0), mobilesubstrate, com.laughingquoll.prefixui, preferenceloader, org.thebigboss.libcolorpicker
+Architecture: iphoneos-arm
+Installed-Size: 452
+Maintainer: LaughingQuoll
+Author: LaughingQuoll
+Filename: ./debs/tweaks/com.tweak.moonshine_1.3.1_iphoneos-arm.deb
+Size: 66064
+MD5sum: 0cd84214f20937d2fc0f2ebc017d6626
+SHA1: 2f6372c623edc24c8ceab01744a4c489a944bf5c
+SHA256: d9163918854574b6d53dfa5d54958253e5ab83d6a698b42283cd5a0573423f94
+Depiction: https://itweaks.xyz/depictions/com.tweak.moonshine/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.moonshine/index.json
+
+Package: com.tweak.mowgli
+Name: Mowgli
+Version: 1.4
+Section: Tweaks
+Description: Get dynamic app icons with awesome widgets
+Depends: mobilesubstrate, applist, ws.hbang.common (>= 1.11), com.opa334.ccsupport
+Architecture: iphoneos-arm
+Installed-Size: 1584
+Maintainer: maximehip
+Author: maximehip
+Filename: ./debs/tweaks/com.tweak.mowgli_1.4_iphoneos-arm.deb
+Size: 245162
+MD5sum: 870e7a19afd1ace84a208ebe69756f68
+SHA1: 31de44b95735fdcda22f9d5ae2258f9b1729a29c
+SHA256: 346a9404add5c24c103e6356432040780222f66db1d67c7fa9a8a0b6b9215081
+Depiction: https://itweaks.xyz/depictions/com.tweak.mowgli/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.mowgli/index.json
+
+Package: com.tweak.xeon
+Name: Xeon (Beta)
+Version: 1.2-7
+Section: Tweaks
+Description: Supercharge status bar!.
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 11.0), cy+cpu.arm64, com.rpetrich.rocketbootstrap (>= 1.0.7~beta1), com.muirey03.libimagepicker, com.creaturesurvive.libcscolorpicker
+Conflicts: com.alexzielenski.zeppelin, com.fortysixandtwo.alkaline, com.peterdev.xeon, com.ramenrepo.soba, ru.rejail.libimagepicker
+Replaces: com.alexzielenski.zeppelin, com.fortysixandtwo.alkaline, com.peterdev.xeon
+Architecture: iphoneos-arm
+Maintainer: PeterDev
+Author: PeterDev
+Filename: ./debs/tweaks/com.tweak.xeon_1.2-7_iphoneos-arm.deb
+Size: 1042250
+MD5sum: c4ad63468184c68f0d628578391ba38d
+SHA1: 66cbdc74e90acc4cf952e1fd0bedf5441b0455db
+SHA256: 4d008e7e2750d01bca83e2ae23051265eb9d3437eb2ddd80622fec4ffdec60cf
+Depiction: https://itweaks.xyz/depictions/com.tweak.xeon/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.xeon/index.json
+
+Package: com.tweak.fixshuttersound
+Name: Fix Shutter Sound
+Version: 2.0
+Section: Tweaks
+Architecture: iphoneos-arm
+Description: fix camera sound device J/A, kH/A
+Maintainer: iGosu
+Author: iGosu
+Filename: ./debs/tweaks/com.tweak.fixshuttersound_2.0_iphoneos-arm.deb
+Size: 1258
+MD5sum: d8ab422deb8d305c5f76bef6a6ebe89b
+SHA1: 247c41d9e679d42d2b5c694432eac67cd3053870
+SHA256: 00fdc4422987f635fc896bdfaed4aed31f2e2c63fa8bcd96fbc670ae28e369e9
+Depiction: https://itweaks.xyz/depictions/com.tweak.fixshuttersound/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.fixshuttersound/index.json
+
+Package: com.widget.yosemiteosx
+Name: Yosemite OSX
+Version: 1.1
+Architecture: iphoneos-arm
+Depends: com.matchstic.xenhtml
+Section: Widgets
+Description: An OSX inspired style for your Lock and Home Screen
+Maintainer: AussieAppz <info@aussieappz.com>
+Author: AussieAppz <info@aussieappz.com>
+Filename: ./debs/widget/com.widget.yosemiteosx_1.1_iphoneos-arm.deb
+Size: 385886
+MD5sum: 10d7ce68c174c5c75937ef2ea3075446
+SHA1: 7dcd46e79a1be4dccb5fb0194153e4d24a508fa9
+SHA256: fa5b524b7c6e9b4fadf42a72449e382102844a2dfd1e437fc5f23eae8adf8335
+Depiction: https://itweaks.xyz/depictions/com.widget.yosemiteosx/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.widget.yosemiteosx/index.json
+
+Package: com.tweak.animationsbefastplus
+Name: AnimationsBeFastPlus
+Version: 2.0
+Description: Speed up animations.
+Architecture: iphoneos-arm
+Section: Tweaks
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader, applist
+Conflicts: com.adamseiter.animationsbefast, jp.novi.FakeClockUp, jp.novi.FakeClockUp2, com.zezblog.noslowanimationsar, com.marcosinghof.noslowanimations, com.pknauf.nsa, com.idevicehacked.nsa
+Installed-Size: 344
+Maintainer: EXqusic
+Author: eXqusic
+Filename: ./debs/tweaks/com.tweak.animationsbefastplus_2.0_iphoneos-arm.deb
+Size: 35512
+MD5sum: 233c9ee2988a4e0b1e5c2b8c115a5c8b
+SHA1: 5c392345823395e5b6a69ad5d8667ca1eaca28fe
+SHA256: 47ac84765dbddbc162de1643d814ff8e331bd8c84623910e5d95a2ca5529e4ea
+Depiction: https://itweaks.xyz/depictions/com.tweak.animationsbefastplus/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.animationsbefastplus/index.json
+
+Package: com.tweak.nighthawk
+Name: Nighthawk
+Version: 1.0
+Depends: mobilesubstrate, ws.hbang.common
+Conflicts: com.dylanduff.osb, com.hackyouriphone.osb, org.cydia.kiimo.osb
+Replaces: com.dylanduff.osb, com.hackyouriphone.osb, org.cydia.kiimo.osb
+Architecture: iphoneos-arm
+Section: Tweaks
+Description: An OLED mode for SpringBoard! 
+Maintainer: Dylan Duff
+Author: Dylan Duff
+Filename: ./debs/tweaks/com.tweak.nighthawk_1.0_iphoneos-arm.deb
+Size: 867702
+MD5sum: 93ce45b84797f9e205a53dc12351acb0
+SHA1: d24bbb005864660cf8b821c4bf03c6479c522384
+SHA256: 1b0cd1490f7ac48ec17d34a25d58a10187bc6b924f9be691b5a351251c039a95
+Depiction: https://itweaks.xyz/depictions/com.tweak.nighthawk/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.tweak.nighthawk/index.json
+
+Package: com.rpgfarm.a-bypass
+Name: A-Bypass
+Depends: mobilesubstrate, applist (>= 1.5.15~beta1)
+Architecture: iphoneos-arm
+Description: Super Jailbreak detection bypass!
+Maintainer: Baw Appie <pp121324@gmail.com>
+Author: Baw Appie <pp121324@gmail.com>
+Section: Tweaks
+Version: 1.0.2
+Installed-Size: 372
+Filename: ./debs/tweaks/com.rpgfarm.a-bypass.deb
+Size: 38534
+MD5sum: 819aa74f5cfa2d0757576c48862aaec8
+SHA1: 8533971992db19a9a6ab89b414d39960e9d9da23
+SHA256: ab65b8bad56c0cbb9e60bf7a86f8d9017c6945fd1a30c25534a4f7f14cbcedee
+Depiction: https://itweaks.xyz/depictions/A-bypass/index.html
+SileoDepiction: https://itweaks.xyz/depictions/A-bypass/index.json
+
+Package: com.theme.liaca
+Name: Liaca
+Version: 1.0
+Description: Modern, Colourful and Carefully Design.
+Section: Themes
+Architecture: iphoneos-arm
+Maintainer: Devy_Design
+Author: Devy_Design
+Filename: ./debs/theme/com.theme.liaca_1.0_iphoneos-arm.deb
+Size: 3390268
+MD5sum: cd60c7b4e51e7785e4a015f0bd95ebc3
+SHA1: 81472a39a313a8ad6d485853864a8c3696410707
+SHA256: 70a1c88087a24d56a67c9048c2a3611a3a8c6d2524cf1b7142ce97e97638fdb1
+Depiction: https://itweaks.xyz/depictions/com.theme.liaca/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.liaca/index.json
+
+Package: com.theme.shunrai
+Name: Shunrai
+Version: 1.2
+Description: A colorful gradient theme.
+Section: Themes
+Architecture: iphoneos-arm
+Maintainer: aokuro
+Author: aokuro
+Filename: ./debs/theme/com.theme.shunrai_1.2_iphoneos-arm.deb
+Size: 4627312
+MD5sum: a35b0efbc46125fedbe715779048ca7c
+SHA1: b2d5a8833a143255bb536a85c1dec70957c6bf43
+SHA256: 95c91b94a47eea62ad900a85bc03586f53acbafb2ef0025c9be3fe2a0a6ce893
+Depiction: https://itweaks.xyz/depictions/com.theme.shunrai/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.shunrai/index.json
+
+Package: com.widget.sbdada23
+Name: SBDaDa23
+Version: 1.0
+Architecture: iphoneos-arm
+Section: Widgets
+Description: widget for LS & HS.
+Author: Ada
+Maintainer: Ada
+Filename: ./debs/widget/com.widget.sbdada23_1.0_iphoneos-arm.deb
+Size: 2093818
+MD5sum: bb90714bafd674356d19a72ba0546be6
+SHA1: cccae2a63ee62243a5f542437a653b89ab08c3a8
+SHA256: ec4d82e5e1d4d099d7b511821b2b8f47806fcc8b5fe74144664fbc04d7e57450
+Depiction: https://itweaks.xyz/depictions/com.widget.sbdada23/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.widget.sbdada23/index.json
+
+Package: com.theme.litt13
+Name: Litt13
+Description: Beautiful icons designed with Microsoft Excel for Snowboard and Anemone.
+Version: 1.1
+Section: Themes
+Architecture: iphoneos-arm
+Maintainer: psprrom
+Author: psprrom
+Filename: ./debs/theme/com.theme.litt13_1.1_iphoneos-arm.deb
+Size: 7213424
+MD5sum: 88ff6087ef87778ae34b66e9972d54a0
+SHA1: 914a8d49130327b4494bd466f4c681cd7b3d0ec0
+SHA256: 277861095135a99b03d59b79042f01cc7611a1311c5d7e0bff6e8b978ad0f800
+Depiction: https://itweaks.xyz/depictions/com.theme.litt13/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.litt13/index.json
+
+Package: com.theme.raspberry
+Name: Raspberry
+Description: Vibrant Gradients for iOS.
+Version: 1.1
+Section: Themes
+Architecture: iphoneos-arm
+Author: theprestigext
+Maintainer: theprestigext
+Filename: ./debs/theme/com.theme.raspberry_iphoneos-arm.deb
+Size: 6848120
+MD5sum: 26820ae73b7b47ff4fec87945591888b
+SHA1: 0aba40737e97f8c5ee36038c2bc390f5f7789095
+SHA256: 6ac4319b115fc4e8abd5e606ce718c7b4d3f34c3dd11fc5ee5c74a74848484ba
+Depiction: https://itweaks.xyz/depictions/com.theme.raspberry/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.theme.raspberry/index.json
+
+Package: com.va2ron1.toonsy
+Name: Toonsy
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Animated icon theming platform for iOS 11
+Maintainer: va2ron1
+Author: va2ron1
+Section: Tweaks
+Version: 1.1.4-1
+Installed-Size: 652
+Filename: ./debs/tweaks/com.va2ron1.toonsy_1.1.4-1_iphoneos-arm.deb
+Size: 259748
+MD5sum: f0f38e3d34938b1e8291f7abac493958
+SHA1: 4b0963ec098d5ae3855a52f9d8390df0747ad98b
+SHA256: c004a2d4c6f2376323a4506223f71bf3a8867870eac822946ee3137a12d24fea
+Depiction: https://itweaks.xyz/depictions/com.va2ron1.toonsy/index.html
+SileoDepiction: https://itweaks.xyz/depictions/com.va2ron1.toonsy/index.json

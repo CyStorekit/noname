@@ -1,0 +1,110 @@
+{
+	"minVersion": "0.1",
+	"headerImage": "https://imod668.github.io/header.png",
+	"tintColor": "#27b7fc",
+	"tabs": [{
+			"class": "DepictionStackView",
+			"tabname": "Details",
+			"views": [{
+					"markdown": "## Installer\nA modern package manager built specifically for iOS!",
+					"useSpacing": true,
+					"class": "DepictionMarkdownView"
+				}, {
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 346}",
+					"screenshots": [{
+							"url": "https://imod668.github.io/depictions/me.apptapp.installer/1.jpg",
+							"accessibilityText": "Screenshot"
+						}, {
+							"url": "https://imod668.github.io/depictions/me.apptapp.installer/2.jpg",
+							"accessibilityText": "Screenshot"
+						}, {
+							"url": "https://imod668.github.io/depictions/me.apptapp.installer/3.jpg",
+							"accessibilityText": "Screenshot"
+						}, {
+							"url": "https://imod668.github.io/depictions/me.apptapp.installer/4.jpg",
+							"accessibilityText": "Screenshot"
+						}, {
+							"url": "https://imod668.github.io/depictions/me.apptapp.installer/5.jpg",
+							"accessibilityText": "Screenshot"
+						}, {
+							"url": "https://imod668.github.io/depictions/me.apptapp.installer/6.jpg",
+							"accessibilityText": "Screenshot"
+						}, {
+							"url": "https://imod668.github.io/depictions/me.apptapp.installer/7.jpg",
+							"accessibilityText": "Screenshot"
+						}
+					]
+				}, {
+					"spacing": 8,
+					"class": "DepictionSpacerView"
+				}, {
+					"markdown": "## Installer \n\nAppTapp is very excited to reveal Installer 5 to everyone!\n\nInstaller is a new fully featured package manager for jailbroken devices on iOS 9 - 12. It is the first package manager to have been built specifically for iOS, instead of having been ported over. What does it mean ? Instead of entirely relying on ported binaries from linux we decided to use the native way. Refreshing sources, installing / updating / removing a packages are all done using native iOS features, increasing performances over what you was used to.<br />It is also fully compatible with other package managers, meaning that you can use Installer alongside Cydia / Zebra / Sileo without any issues (you'll be able to use Installer to update or uninstall packages installed using other package managers and vice-versa).<br /><br />As a features list is better than a long talk, here is the main features you can expect from Installer (full list available <a href=\"https://apptapp.me/threads/full-installer-features-list.73/\">here</a>):\n- Brand new design inspired by the AppStore one with a small touch of our\n- Only use native code to refresh sources and manage packages (dpkg is however used if available to ensure a perfect compatiblity with other package managers)\n- Beautiful depictions based on our format (simple json that every repository can adopt). If not available, Installer will use the Sileo depiction (again if available) or parse the html depiction for compatible repositories\n- No advertisements for a smooth navigation (only BigBoss depictions contains ads with support for other repositories coming soon)\n- Non intrusive tasks progress: Installer execute all its tasks in the background, updating the navigation bars titles with the current amount of active tasks. If however you want to see the current progress click on the titles, that will bring either a normal view or a verbose style one\n- ... And many more!\n\n<br />Installer 5 has been in development for over 1 year and a half. While our sense of perfectionism made us to push our limits to be sure everything is bug free, issues could happen. If that's your case, head over to <a href=\"https://apptapp.me/forums/support-bug-report.9/\" target=\"_blank\">our dedicated forum section</a>.\nWe hope you enjoy what we've been working hard on!\n\n## AppTapp",
+					"useSpacing": true,
+					"class": "DepictionMarkdownView"
+				}, {
+					"class": "DepictionSeparatorView"
+				}, {
+					"title": "Version",
+					"text": "5.0",
+					"class": "DepictionTableTextView"
+				}, {
+					"title": "Last Update",
+					"text": "18/09/19",
+					"class": "DepictionTableTextView"
+				}, {
+					"title": "Price",
+					"text": "Free",
+					"class": "DepictionTableTextView"
+				}, {
+					"title": "Developer",
+					"text": "AppTapp",
+					"class": "DepictionTableTextView"
+				}, {
+					"title": "Compatibility",
+					"text": "iOS 9.0 to 12.4",
+					"class": "DepictionTableTextView"
+				}, {
+					"class": "DepictionTableButtonView",
+					"title": "Support",
+					"action": "https://apptapp.me/forums/support-bug-report.9/",
+					"openExternal": true
+				}, {
+					"spacing": 8,
+					"class": "DepictionSpacerView"
+				}, {
+					"class": "DepictionImageView",
+					"alignment": 1,
+					"cornerRadius": 0,
+					"height": 32,
+					"width": 32,
+					"URL": "https://apptapp.me/repo/apptapp_logo.png"
+				}, {
+					"class": "DepictionMarkdownView",
+					"useSpacing": true,
+					"markdown": "AppTapp"
+				}
+			]
+		}, {
+			"tabname": "Changelog",
+			"views": [{
+					"title": "5.0",
+					"text": "18/09/19",
+					"class": "DepictionTableTextView"
+				}, {
+					"markdown": "- Initial release\n",
+					"useSpacing": false,
+					"class": "DepictionMarkdownView"
+				}, {
+					"spacing": 8,
+					"class": "DepictionSpacerView"
+				}, {
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"class": "DepictionStackView"
+		}
+	],
+	"class": "DepictionTabView"
+}

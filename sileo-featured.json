@@ -1,0 +1,14 @@
+{  
+   "class":"FeaturedBannersView",
+   "itemSize":"{280, 150}",
+   "itemCornerRadius":10,
+   "banners":[
+     {  
+         "url":"https://itweaks.xyz/resources/icons/logo/Header/header.png",
+         "title":"iTweaks.xyz",
+         "package":"https://itweaks.xyz/",
+         "hideShadow":false
+      },
+
+   ]
+}
